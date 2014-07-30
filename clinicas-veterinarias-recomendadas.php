@@ -32,8 +32,8 @@
             	<ul>
                     <li><a href="blog.php">Blog</a></li>
                     <li><a href="clinicas-veterinarias-recomendadas.php">Clínicas veterinarias</a></li>
-                    <li><a href="#">Profesionales</a></li>
-                    <li><a href="#">Productos</a></li>
+                    <!--<li><a href="#">Profesionales</a></li>-->
+                    <li><a href="productos.php">Productos</a></li>
                     <li><a href="contacto.php">Contacto</a></li>
                 </ul>
             </nav>
@@ -57,7 +57,7 @@
             <div class="col-lg-12 text-left no-column">
                 <ol class="breadcrumb">
                   <li><a href="#">Inicio</a></li>
-                  <li class="active">Contacto</li>
+                  <li class="active">Clinicas Veterinarias Recomendadas</li>
                 </ol>
             </div>
         </div>
@@ -98,6 +98,7 @@
                     <label><input type="checkbox" name="Especialidad" value="dermatologia" id="Especialidad_1">Dermatología</label>
                 </div>
                 <div class="tab-pane" id="ubicacion">
+                	<!--<p>Selecciona ciudad</p>
                     <select id="single">
                     	<option>&nbsp;</option>
                         <option>Santiago</option>
@@ -107,7 +108,12 @@
                         <option>Providencia</option>
                         <option>Santiago Centro</option>
                         <option>Estación Central</option>
-                    </select>                    
+                    </select>-->
+                    <label><input type="checkbox" name="Ubicacion" value="Todos" id="Ubicacion_0">Todos</label>
+                    <label><input type="checkbox" name="Ubicacion" value="Santiago Centro" id="Ubicacion_1">Santiago Centro</label>
+                    <label><input type="checkbox" name="Ubicacion" value="Providencia" id="Ubicacion_2">Providencia</label>
+                    
+                                        
                 </div>
             </div>
             </form>
@@ -155,7 +161,7 @@
                     	Perros, Gatos y Aves. 
                     </div>
                     <div class="clearfix"></div>
-                    <a href="#" class="vermas">Ver más</a>                    
+                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
                 </div>
             </div>
             
@@ -182,7 +188,7 @@
                     	Perros, Gatos y Aves. 
                     </div>
                     <div class="clearfix"></div>
-                    <a href="#" class="vermas">Ver más</a>                    
+                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
                 </div>
             </div>
         	<div class="item-clinica text-center">
@@ -207,7 +213,7 @@
                     	Perros, Gatos y Aves. 
                     </div>
                     <div class="clearfix"></div>
-                    <a href="#" class="vermas">Ver más</a>                    
+                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
                 </div>
             </div>
         	<div class="item-clinica text-center">
@@ -232,33 +238,7 @@
                     	Perros, Gatos y Aves. 
                     </div>
                     <div class="clearfix"></div>
-                    <a href="#" class="vermas">Ver más</a>                    
-                </div>
-            </div>
-
-        	<div class="item-clinica text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid">
-                	<div class="col-lg-12 text-center">
-                    	<h4>veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="#" class="vermas">Ver más</a>                    
+                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
                 </div>
             </div>
 
@@ -284,7 +264,7 @@
                     	Perros, Gatos y Aves. 
                     </div>
                     <div class="clearfix"></div>
-                    <a href="#" class="vermas">Ver más</a>                    
+                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
                 </div>
             </div>
 
@@ -310,7 +290,7 @@
                     	Perros, Gatos y Aves. 
                     </div>
                     <div class="clearfix"></div>
-                    <a href="#" class="vermas">Ver más</a>                    
+                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
                 </div>
             </div>
 
@@ -336,7 +316,7 @@
                     	Perros, Gatos y Aves. 
                     </div>
                     <div class="clearfix"></div>
-                    <a href="#" class="vermas">Ver más</a>                    
+                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
                 </div>
             </div>
 
@@ -362,7 +342,7 @@
                     	Perros, Gatos y Aves. 
                     </div>
                     <div class="clearfix"></div>
-                    <a href="#" class="vermas">Ver más</a>                    
+                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
                 </div>
             </div>
 
@@ -388,7 +368,33 @@
                     	Perros, Gatos y Aves. 
                     </div>
                     <div class="clearfix"></div>
-                    <a href="#" class="vermas">Ver más</a>                    
+                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
+                </div>
+            </div>
+
+        	<div class="item-clinica text-center">
+            	<img src="img/logo-clinica-1.png" alt=""><br>
+                <div class="container-fluid">
+                	<div class="col-lg-12 text-center">
+                    	<h4>veteromovil</h4>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-map-marker fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	Avenida Providencia #1959, Santiago<br>
+                    </div>
+                    <div class="dire box fwidth fleft"></div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-list fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	Perros, Gatos y Aves. 
+                    </div>
+                    <div class="clearfix"></div>
+                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
                 </div>
             </div>
             
@@ -417,8 +423,8 @@
             	<ul>
                 	<li><a href="blog.php">Blog</a></li>
                     <li><a href="clinicas-veterinarias-recomendadas.php">Clínicas veterinarias</a></li>
-                    <li><a href="#">Profesionales</a></li>
-                    <li><a href="#">Productos</a></li>
+                    <!--<li><a href="#">Profesionales</a></li>-->
+                    <li><a href="productos.php">Productos</a></li>
                     <li><a href="contacto.php">Contacto</a></li>
                 </ul>
             </div>

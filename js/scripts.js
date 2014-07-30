@@ -13,7 +13,9 @@ $(window).load(function(){
 	singleMode:true,
 	itemSelector: '.item'
 	});
-
+	
+	
+	
 
 	
 	/*$(".rand-color").each(function() {
@@ -67,17 +69,47 @@ $(window).load(function(){
 	   $('#especialidad-seleccionada').html('&nbsp;-&nbsp;'+tempEspecialidadValue);
 	})
 	
-	function displayVals() {
-		var singleValues = $( "#single" ).val();
-		var multipleValues = $( "#multiple" ).val() || [];
-		$( "#ubicacion-seleccionada" ).html( "&nbsp;-&nbsp;<b>Ciudad:&nbsp;</b> " + singleValues +
-		" <b>Comuna(s):&nbsp;</b> " + multipleValues.join( ", " ) );
-	}
+	$('#ubicacion  input:checkbox').change(function(){
+	  var tempEspecialidadValue='';
+	  tempEspecialidadValue=$('#ubicacion  input:checkbox').map(function(n){
+		  if(this.checked){
+				return  this.value;
+			  };
+	   }).get().join('&nbsp;-&nbsp;');
+	console.log(tempEspecialidadValue);
+	   $('#ubicacion-seleccionada').html('&nbsp;-&nbsp;'+tempEspecialidadValue);
+	})
 	
-	$( "#ubicacion select" ).change( displayVals );
-	displayVals();
+	//function displayVals() {
+		//var singleValues = $( "#single" ).val();
+		//var multipleValues = $( "#multiple" ).val() || [];
+		//$( "#ubicacion-seleccionada" ).html( /*"&nbsp;-&nbsp;<b>Ciudad:&nbsp;</b> " + singleValues +*/
+		//" <b>Comuna(s):&nbsp;</b> " + multipleValues.join( ", " ) );
+	//}
+	
+	//$( "#ubicacion select" ).change( displayVals );
+	//displayVals();
 
 
+  
+  $('#MainMenu a.item').click(function () {
+  		$('#MainMenu a.item').not(this).removeClass('active');
+  		$(this).addClass('active');
+  	});	
+  
+  	
+  	// maginficador de fotos
+  		$('.my-foto').imagezoomsl({ 
+  	
+  			  innerzoommagnifier: true,
+  			  classmagnifier: window.external ? window.navigator.vendor === 'Yandex' ? "" : 'round-loope' : "", // fix для Opera, Safary, Yandex
+  			  magnifierborder: "5px solid #F0F0F0",                 // fix для Opera, Safary, Yandex		  
+  			  zoomrange: [2, 8],
+  			  zoomstart: 2,
+  			  magnifiersize: [200, 200]	
+  		});  
+  
+  
   
 });
 

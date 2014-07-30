@@ -647,6 +647,11 @@ header ol li a:hover {
 		margin:5px auto 3px 8%;
 		width:83%;
 	}
+	#productos a.vermas {
+	margin: 9px auto;
+	width: 100%;
+	font-size: 12px;
+	}
 	
 
 }
@@ -665,7 +670,14 @@ header ol li a:hover {
 	}
 	#lista-de-clinicas .item-clinica a.vermas{
 		margin-top:9px;
+		
 	}
+	#productos a.vermas {
+		font-size:9px;
+    margin: 9px auto;
+    width: 100%;
+	}
+	
 }
 
 
@@ -683,16 +695,16 @@ header ol li a:hover {
 .single-veterinaria .flexslider ul li img {
 	border-radius: 50%;
 }
-.single-veterinaria .social-clinica {
+.social-clinica {
 	margin-bottom: 60px;
 }
-.single-veterinaria .caja-social {
+.caja-social {
 	border: 2px solid #000;
 	color: #e84084;
 	padding: 5px 10px;
 	width: 25%;
 }
-.single-veterinaria .caja-social:last-child {
+.caja-social:last-child {
 	border-left: 0;
 }
 .ico-dato-clinica i{
@@ -700,6 +712,160 @@ header ol li a:hover {
 }
 .datos-clinica a{
 	color: #07a18f;
+}
+
+/*Productos*/
+#productos {
+	padding-top: 26px;
+}
+#productos .panel{
+	border-radius: 0;
+	box-shadow: 0;
+	border: 0;
+}
+
+#productos a.active {
+	background: #d14b4b!important;
+	color: #FFF!important;
+	border: 0;
+}
+#productos a.active:focus{
+	outline: none;
+} 
+#productos a.item {
+	background: #FFF;
+} 
+#productos a.sub-item {
+	background: #e46161;
+	display: block;
+	width: 100%;
+	color: #FFF;
+	text-decoration: none;
+	padding: 10px;
+}
+
+#productos .list-group-item:first-child {	
+	border-radius: 0;
+}
+#productos .producto-lista {
+	background: #FFF;
+	height:300px;
+	margin-right: 20px;
+	width: 31%;
+	display: block;
+	float: left;
+	margin-bottom: 20px;
+	padding: 2%;
+}
+#productos .producto-lista img{
+	max-width: 100%;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #333;
+}
+
+#productos .producto-lista:nth-child(3n) {
+	margin-right:0px;
+}
+#productos a.vermas {
+	background: none repeat scroll 0 0 #fff;
+	  border: 1px solid #000;
+	  border-radius: 9px;
+	  color: #000;
+	  display: block;
+	  margin: 13px auto;
+	  width: 50%;
+	  padding: 1px 10px;
+	  text-align: center;
+	  text-transform: capitalize;
+	  transition: all 0.5s ease 0s;
+}
+#productos a.vermas:hover {
+	background: #000;
+	color: #FFF;
+}
+
+#single-producto {
+	background: #FFF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#single-producto .foto-producto {
+	padding: 20px 0;
+}
+#single-producto .foto-producto img {
+	max-width: 100%;
+}
+#single-producto h3 {
+	text-decoration: underline;
+}
+#single-producto p a{
+color: #68c6bb;
+}
+#single-producto .contenedor-producto {
+	border-bottom: 1px solid #333;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+.social-producto {
+	width: 100%;
+}
+.social-producto .social-clinica {
+	margin-bottom: 0;
+} 
+.social-producto .caja-social {
+	width: 14%;
+}
+.round-loope{
+   border-radius: 75px;
+   border: 5px solid #F0F0F0;
+}
+
+
+.producto-lista i, .producto-lista span {
+	color: #07a18f;
+}
+
+@media (max-width: 1000px) {
+	#productos .producto-lista {
+		margin-right: 0;
+		width: 90%;
+	}
+	#productos .producto-lista:nth-child(3n) {
+		margin-right:0px;
+	}
+	.social-producto .caja-social{
+		width: 25%;
+	}
+}
+
+/* para dispositivo */
+@media only screen and (max-device-width: 1000px) {
+	#productos .producto-lista {
+		margin-right: 0px;
+		width: 90%;
+	}
+	#productos .producto-lista:nth-child(3n) {
+		margin-right:0px;
+	}
+	.social-producto .caja-social{
+		width: 25%;
+	}
+}
+/*Browser*/
+@media (max-width: 480px) {
+
+}
+/*Dispositivo*/
+@media only screen and (max-device-width: 480px) {
+	.social-producto .caja-social{
+		width: 35%;
+	}
+	a.list-group-item {
+		font-size: 10px;
+	}
+	#single-producto .contenedor-producto p {
+		font-size: 11px;
+	}
 }
 
 

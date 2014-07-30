@@ -32,8 +32,8 @@
             	<ul>
                     <li><a href="blog.php">Blog</a></li>
                     <li><a href="clinicas-veterinarias-recomendadas.php">Clínicas veterinarias</a></li>
-                    <li><a href="#">Profesionales</a></li>
-                    <li><a href="#">Productos</a></li>
+                    <!--<li><a href="#">Profesionales</a></li>-->
+                    <li><a href="productos.php">Productos</a></li>
                     <li><a href="contacto.php">Contacto</a></li>
                 </ul>
             </nav>
@@ -221,8 +221,8 @@
             	<ul>
                 	<li><a href="blog.php">Blog</a></li>
                     <li><a href="clinicas-veterinarias-recomendadas.php">Clínicas veterinarias</a></li>
-                    <li><a href="#">Profesionales</a></li>
-                    <li><a href="#">Productos</a></li>
+                    <!--<li><a href="#">Profesionales</a></li>-->
+                    <li><a href="productos.php">Productos</a></li>
                     <li><a href="contacto.php">Contacto</a></li>
                 </ul>
             </div>
