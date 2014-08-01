@@ -2,9 +2,15 @@
 
 $(window).load(function(){
 	//Flexslider
-	$('.flexslider').flexslider({
+	$('#slider-noticias-recientes').flexslider({
 		animation: "slide",
 	});
+  
+  $('#slider-produtos-home').flexslider({
+  		animation: "slide",
+  		controlNav: false, 
+  	});
+  
   
 	//masonry
 	var container = document.querySelector('#notas');

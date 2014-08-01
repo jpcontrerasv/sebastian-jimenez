@@ -1,56 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sebastián Jiménez</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-    <link href="style.css" rel="stylesheet">
-    
-	<script type="text/javascript" src="//use.typekit.net/ctw4igp.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <header class="container">
-        <div class="col-lg-2 text-center">
-            <a href="index.php"><img src="img/logo-menu-header.png" alt=""></a>
-        </div>
-        <div class="col-lg-8">
-            <nav>
-            	<ul>
-                    <li><a href="blog.php">Blog</a></li>
-                    <li><a href="clinicas-veterinarias-recomendadas.php">Clínicas veterinarias</a></li>
-                    <!--<li><a href="#">Profesionales</a></li>-->
-                    <li><a href="productos.php">Productos</a></li>
-                    <li><a href="contacto.php">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="col-lg-2">
-            <ol>
-                <li><a href="#"><span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                </span></a></li>
-                <li><a href="#"><span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span></a></li>
-            </ol>
-        </div>
-    </header>
+<?php include 'header.php'; ?>
     <section id="breadcrumbs">
     	<div class="container no-column">
             <div class="col-lg-12 text-left no-column">
@@ -77,11 +25,11 @@
         </div>
     </section>
     
-	<section id="contenido-single" class="box fwidth">
-    	<div class="container no-column">
-        	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-column">
+	<section id="contenido-single" class="container no-column">
+    	
+        	<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 no-column">
             
-            	<div id="loop" class="container">
+            	<div id="loop" class="container-fluid">
                 	<!--loop-->
                     	<div class="col-lg-10 text-left">
                         	<h3>Titular secundario</h3>
@@ -100,7 +48,7 @@
                             
                             <div class="clearfix"></div>
                             
-                            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-lg-offset-9 col-md-offset-9 footer-loop">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lg-offset-8 col-md-offset-8 footer-loop">
                                 <ol>
                                 	<li>Compártelo</li>
                                     <li><a href="#"><span class="fa-stack fa-lg">
@@ -113,6 +61,24 @@
                                     </span></a></li>
                                 </ol>
                             </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                            <div id="disqus_thread"></div>
+                                <script type="text/javascript">
+                                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                                    var disqus_shortname = 'sebastinjimenez'; // required: replace example with your forum shortname
+                            
+                                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                                    (function() {
+                                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                                    })();
+                                </script>
+                                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                                
+                            </div>
                             
                         </div>
                         
@@ -121,11 +87,77 @@
                 </div>
             
             </div>
-            <!--container-->
-        </div>
-        <!--container-->
-        
-    </section>    
+        	<div id="sidebar" class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+        			<div class="caja-sidebar-home box fwidth no-column mascota-perdida">
+        				<div class="box fwidth text-left titular-seccion">
+        					<h6>Temas</h6>
+        				</div>
+        				<ul>
+        					<li><a href="#">Perros</a></li>
+        					<li><a href="#">Gatos</a></li>
+        					<li><a href="#">Alimentación</a></li>
+        					<li><a href="#">Vida Sana</a></li>
+        				</ul>
+        				
+        				<div class="box fwidth text-left titular-seccion">
+        					<h6>Mascota Perdida</h6>
+        				</div>
+        				<div class="content-caja-sidebar-home fwidth">
+        					<div class="box fwidth text-center">
+        						<img src="img/perdido.jpg" alt="">
+        					</div>
+        					
+        					
+        					<div class="container-fluid datos-mascota no-column">
+        						<div class="col-lg-12">	
+        							<h4>Cachupín</h4>
+        						</div>
+        						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        							<p>Visto por última vez:</p>
+        						</div>
+        						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        							<p>13 de agosto</p>
+        						</div>
+        						<div class="clearfix"></div>
+        						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        							<p>Identificable por:</p>
+        						</div>
+        						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        							<p>Es blanca y tiene manchas negras</p>
+        						</div>
+        						<div class="clearfix"></div>
+        						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+        							<a href="#" class="vermas">Ver más</a>
+        						</div>
+        						
+        					</div>
+        					<!--/container-->
+        				</div>
+        			</div>
+        			<div class="caja-sidebar-home box fwidth no-column mascota-perdida">
+        				<div class="box fwidth text-left titular-seccion">
+        					<h6>Facebook</h6>
+        				</div>
+        				<div class="content-caja-sidebar-home fwidth">
+        					<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="250" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+        				</div>
+        			</div>
+        			<div class="caja-sidebar-home box fwidth no-column mascota-perdida">
+        				<div class="box fwidth text-left titular-seccion">
+        					<h6>Twitter</h6>
+        				</div>
+        				<div class="content-caja-sidebar-home fwidth">
+        					<div class="content-caja-sidebar-home fwidth">
+        						<a class="twitter-timeline" href="https://twitter.com/lindorfovet" data-widget-id="494934675450638340">Tweets por @lindorfovet</a>
+        						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        					
+        				</div>
+        			</div>
+        			
+        			</div>
+        		</div>
+			
+	</section>    
     
     
     <footer class="fwidth fleft">
