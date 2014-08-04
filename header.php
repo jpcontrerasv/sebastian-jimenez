@@ -37,13 +37,45 @@
         </div>
         <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
             <nav>
-            	<ul>
+            	<!--<ul>
                     <li><a href="blog.php">Blog</a></li>
-                    <li><a href="clinicas-veterinarias-recomendadas.php">clivets</a></li>
-                    <li><a href="#">Profesionales</a></li>
+                    <li><a href="#">clivets</a>
+                    	<ul>
+                    		<li><a href="clinicas-veterinarias-recomendadas.php">Clinicas veterinarias recomendadas</a></li>
+                    	</ul>
+                    </li>
+                    <li><a href="profesionales.php">Profesionales</a></li>
                     <li><a href="productos.php">Productos</a></li>
                     <li><a href="contacto.php">Contacto</a></li>
+                </ul>-->
+                <ul>
+                <li class="dropdown"><a href="blog.php">Blog</a></li>
+                <li class="dropdown">
+                  <a href="#" data-toggle="dropdown" class="dropdown-toggle">Clivets <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="clinicas-veterinarias-recomendadas.php">clinicas veterinarias recomendadas</a></li>
+                    <li><a href="profesionales.php">Profesionales</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" data-toggle="dropdown" class="dropdown-toggle">Servicios <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Pregúntale a SJ</a></li>
+                    <li><a href="#">Mascotas perdidas</a></li>
+                    <li><a href="#">Busco pareja</a></li>
+                    <li><a href="#">Agenda de adopciones</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="profesionales.php">Profesionales</a></li>
+                <li class="dropdown"><a href="productos.php">Productos</a></li>
+                <li class="dropdown"><a href="contacto.php">Contacto</a></li>
+                	
+                
+                
                 </ul>
+                
+                
+                
             </nav>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 buscador-menu text-center">

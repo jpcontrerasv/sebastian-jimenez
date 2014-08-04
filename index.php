@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>  
   
     <section id="bloq-index" class="container no-column">
-        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
         <div class="box fwidth text-left titular-seccion">
         	<h6>Noticias recientes</h6>
         </div>
@@ -42,7 +42,7 @@
         
         
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
 	        <div class="box fwidth text-left titular-seccion">
 	        	<h6>SJ Responde</h6>
 	        </div>
@@ -56,7 +56,7 @@
         		<a href="#" class="vermas">Ver más preguntas</a>
         	</div>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
         	<div class="box fwidth text-left titular-seccion">
         		<h6>Tienda</h6>
         	</div>
