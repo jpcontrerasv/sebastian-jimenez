@@ -7,13 +7,15 @@
     <title>Sebastián Jiménez</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-    <link href="style.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+		<link type="text/css" rel="stylesheet" href="css/featherlight.min.css" title="Featherlight Styles" />
+		<link href="style.css" rel="stylesheet">
     
-	<script type="text/javascript" src="//use.typekit.net/ctw4igp.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    
+		<script type="text/javascript" src="//use.typekit.net/ctw4igp.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -61,7 +63,7 @@
                   <a href="#" data-toggle="dropdown" class="dropdown-toggle">Servicios <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li><a href="preguntale-a-sj.php">Pregúntale a SJ</a></li>
-                    <li><a href="#">Mascotas perdidas</a></li>
+                    <li><a href="mascotas-perdidas.php">Mascotas perdidas</a></li>
                     <li><a href="#">Busco pareja</a></li>
                     <li><a href="#">Agenda de adopciones</a></li>
                   </ul>

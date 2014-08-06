@@ -447,6 +447,42 @@ min-width: 100%;
 	padding-bottom:20px;
 	background:#FFF;
 }
+#notas .item-perdida {
+	min-height: 300px;
+	padding-bottom: 0;
+}
+#notas .item-perdida .lupa {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .75);
+	z-index: 1;
+	top: 0;
+	left: 0;
+	text-align: center;
+	opacity: 0;
+	transition:all .5s ease;
+}
+
+#notas .item-perdida:hover .lupa{
+	opacity: 1;
+}
+#notas .item-perdida .lupa a {
+	display: table;
+	width: 100%;
+	height: 100%;
+	color: #FFF;
+	text-decoration: none;
+	font-weight: 700;
+	font-style: italic;
+}
+#notas .item-perdida .lupa a span {
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+}
+
 #notas .item img{
 	width:100%;
 }
