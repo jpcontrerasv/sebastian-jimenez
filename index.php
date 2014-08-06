@@ -53,7 +53,7 @@
 	        	</div>
         		<h4>¿Qué vacunas debes poner a un cachorro?</h4>
         		<p>Los cachorros necesitan una serie de vacunas para crecer de manera saludable...</p>
-        		<a href="#" class="vermas">Ver más preguntas</a>
+        		<a href="preguntale-a-sj.php" class="vermas">Ver más preguntas</a>
         	</div>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">

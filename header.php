@@ -60,13 +60,12 @@
                 <li class="dropdown">
                   <a href="#" data-toggle="dropdown" class="dropdown-toggle">Servicios <b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Pregúntale a SJ</a></li>
+                    <li><a href="preguntale-a-sj.php">Pregúntale a SJ</a></li>
                     <li><a href="#">Mascotas perdidas</a></li>
                     <li><a href="#">Busco pareja</a></li>
                     <li><a href="#">Agenda de adopciones</a></li>
                   </ul>
                 </li>
-                <li class="dropdown"><a href="profesionales.php">Profesionales</a></li>
                 <li class="dropdown"><a href="productos.php">Productos</a></li>
                 <li class="dropdown"><a href="contacto.php">Contacto</a></li>
                 	
