@@ -64,7 +64,7 @@
                   <ul class="dropdown-menu">
                     <li><a href="preguntale-a-sj.php">Pregúntale a SJ</a></li>
                     <li><a href="mascotas-perdidas.php">Mascotas perdidas</a></li>
-                    <li><a href="#">Busco pareja</a></li>
+                    <li><a href="busco-pareja.php">Busco pareja</a></li>
                     <li><a href="#">Agenda de adopciones</a></li>
                   </ul>
                 </li>

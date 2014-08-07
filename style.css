@@ -451,6 +451,13 @@ min-width: 100%;
 	min-height: 300px;
 	padding-bottom: 0;
 }
+/* para dispositivo */
+@media only screen and (max-device-width: 480px) {
+	#notas .item-perdida {
+		min-height: 100px;
+		padding-bottom: 0;
+	}
+}
 #notas .item-perdida .lupa {
 	position: absolute;
 	display: block;

@@ -6,7 +6,7 @@
             <div class="col-lg-12 text-left no-column">
                 <ol class="breadcrumb">
                   <li><a href="#">Inicio</a></li>
-                  <li class="active">Blog</li>
+                  <li class="active">Mascotas Perdidas</li>
                 </ol>
             </div>
         </div>
