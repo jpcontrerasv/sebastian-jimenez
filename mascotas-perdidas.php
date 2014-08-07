@@ -22,48 +22,94 @@
     
     
     <section id="blog-home" class="container no-column">
-    
+    	
     	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+        	<div id="filtro-perdidas" class="box fwidth fleft">
+            	<div class="box fwidth text-left titular-seccion">
+                	<h6>Filtra por ciudad</h6>
+                </div>
+                <ul>
+                    <li><a href="#">Santiago (22)</a></li>
+                    <li><a href="#">Concepción (16)</a></li>
+                    <li><a href="#">Valparaíso (15)</a></li>
+                    <li><a href="#">Iquique (12)</a></li>
+                    <li><a href="#">La Serena (8)</a></li>
+                    <li><a href="#">Talca (7)</a></li>
+                    <li><a href="#">Temuco (7)</a></li>
+                    <li><a href="#">Ovalle (6)</a></li>
+                    <li><a href="#">Puerto Montt (5)</a></li>
+                    <li><a href="#">Chiloé (2)</a></li>
+                    <li><a href="#">Punta Arenas (2)</a></li>
+                </ul>
+                
+            </div>
+            
+            
+            
+            <div class="box fwidth text-left titular-seccion">
+                <h6>Mascotas perdidas recientes</h6>
+            </div>
     		<div id="notas" class="box fwidth">
             <div class="item item-perdida">
             	<img src="img/perdida-1.jpg" alt="">
             	<div class="lupa">
-            		<a href="img/perdida-1.jpg" data-featherlight="image"><span>Ver imagen más grande&nbsp;<i class="fa fa-search-plus"></i></span></a>
+            		<a href="img/perdida-1.jpg" data-featherlight="image"><span><i class="fa fa-search-plus fa-4x"></i></span></a>
             	</div>
             </div>
             <div class="item item-perdida">
             	<img src="img/perdida-2.jpg" alt="">
             	<div class="lupa">
-            		<a href="img/perdida-2.jpg" data-featherlight="image"><span>Ver imagen más grande&nbsp;<i class="fa fa-search-plus"></i></span></a>
+            		<a href="img/perdida-2.jpg" data-featherlight="image"><span><i class="fa fa-search-plus fa-4x"></i></span></a>
             	</div>
             </div>
             <div class="item item-perdida">
             	<img src="img/perdida-3.jpg" alt="">
             	<div class="lupa">
-            		<a href="img/perdida-3.jpg" data-featherlight="image"><span>Ver imagen más grande&nbsp;<i class="fa fa-search-plus"></i></span></a>
+            		<a href="img/perdida-3.jpg" data-featherlight="image"><span><i class="fa fa-search-plus fa-4x"></i></span></a>
             	</div>
                 
             </div>
             <div class="item item-perdida">
             	<img src="img/perdida-3.jpg" alt="">
               <div class="lupa">
-              	<a href="img/perdida-3.jpg" data-featherlight="image"><span>Ver imagen más grande&nbsp;<i class="fa fa-search-plus"></i></span></a>
+              	<a href="img/perdida-3.jpg" data-featherlight="image"><span><i class="fa fa-search-plus fa-4x"></i></span></a>
               </div>  
             </div>
             <div class="item item-perdida">
             	<img src="img/perdida-1.jpg" alt="">
             	<div class="lupa">
-            		<a href="img/perdida-1.jpg" data-featherlight="image"><span>Ver imagen más grande&nbsp;<i class="fa fa-search-plus"></i></span></a>
+            		<a href="img/perdida-1.jpg" data-featherlight="image"><span><i class="fa fa-search-plus fa-4x"></i></span></a>
             	</div>
                 
             </div>
             <div class="item item-perdida">
             	<img src="img/perdida-2.jpg" alt="">
             	<div class="lupa">
-            		<a href="img/perdida-2.jpg" data-featherlight="image"><span>Ver imagen más grande&nbsp;<i class="fa fa-search-plus"></i></span></a>
+            		<a href="img/perdida-2.jpg" data-featherlight="image"><span><i class="fa fa-search-plus fa-4x"></i></span></a>
+            	</div>
+            </div>
+
+            <div class="item item-perdida">
+            	<img src="img/perdida-2.jpg" alt="">
+              <div class="lupa">
+              	<a href="img/perdida-2.jpg" data-featherlight="image"><span><i class="fa fa-search-plus fa-4x"></i></span></a>
+              </div>  
+            </div>
+            <div class="item item-perdida">
+            	<img src="img/perdida-3.jpg" alt="">
+            	<div class="lupa">
+            		<a href="img/perdida-3.jpg" data-featherlight="image"><span><i class="fa fa-search-plus fa-4x"></i></span></a>
             	</div>
                 
             </div>
+            <div class="item item-perdida">
+            	<img src="img/perdida-1.jpg" alt="">
+            	<div class="lupa">
+            		<a href="img/perdida-1.jpg" data-featherlight="image"><span><i class="fa fa-search-plus fa-4x"></i></span></a>
+            	</div>
+            </div>
+            
+            
             
         </div> 
     		<section id="paginacion" class="box fwidth">
@@ -95,27 +141,21 @@
     					<label for="">Tu Correo</label><br>
     					<input type="email" name="" value="" placeholder="Mail" />
     					<div class="clearfix"></div>
+                        <label for="">¿En qué ciudad se perdió?</label>
+                        <input type="text" name="" value="" placeholder="Escribe el nombre de la ciudad" />
+                        <div class="clearfix"></div>
     					<label for="">Tu afiche</label><br>
     					<input type="file">
-    					
+    					<div class="clearfix"></div>
+                        <input type="submit" value="Envía tu afiche">
+                        
+                        
     				</form>
     			</div>
     			<div class="clearfix"></div>
     			
     			
     			
-    			
-    			
-    			<div id="buscador-preguntas" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    				<div class="box fwidth text-left titular-seccion">
-    					<h6>Busca en las mascotas perdidas</h6>
-    				</div>
-    				<form>
-    					<input type="text" name="" value="" />
-    					<input type="submit" name="" value="Buscar" />
-    				</form>
-    			</div>
-    			<div class="clearfix"></div>
     			
     			
     			

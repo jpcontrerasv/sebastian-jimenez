@@ -22,89 +22,126 @@
     
     
     <section id="blog-home" class="container no-column">
-    
     	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+        
+        	<div id="filtro-perdidas" class="box fwidth fleft">
+            	<div class="box fwidth text-left titular-seccion">
+                	<h6>Parejas en tu ciudad</h6>
+                </div>
+                <ul>
+                    <li><a href="#">Perros (22)</a></li>
+                    <li><a href="#">Gatos (16)</a></li>
+                    <li><a href="#">Torutgas (15)</a></li>
+                    <li><a href="#">Llamas (12)</a></li>
+                </ul>
+                
+            </div>
+        
     		<div id="notas" class="box fwidth">
-            <div class="item ">
-            	<img src="img/img-noticia-1.jpg" alt="">
+            
+            <div class="item item-pareja"> 	 	
+            	<img src="img/perdido.jpg" alt=""><br><br>
                 <div class="container-fluid">
-                	<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                    	<h2>Titulo</h2>
+                	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <p><strong>Nombre</strong></p> 
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 fecha no-column text-left">
-                    	<p>12/12/12</p>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <p>Cachupín</p> 
                     </div>
-                    <div class="clearfix"></div>
-                    <div class="col-lg-12">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna” ”aliqua. Ut enim ad minim veniam, quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna” ”aliqua. Ut enim ad minim veniam, quis</p>   
-                        <div class="box fwidth fleft text-center"><a href="single.php" class="fcenter mas">Seguir leyendo</a></div>                 
-                    </div>
+                    
+                    <div class="box fwidth fleft text-center"><a href="#" class="fcenter mas">¡Conócelo!</a></div>
                 </div>
             </div>
-            <div class="item ">
-            	<img src="img/img-noticia-2.jpg" alt="">
+            
+            <div class="item item-pareja"> 	 	
+            	<img src="img/home-cat.jpg" alt=""><br><br>
                 <div class="container-fluid">
-                	<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                    	<h2>Titulo</h2>
+                	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <p><strong>Nombre</strong></p> 
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 fecha no-column text-left">
-                    	<p>12/12/12</p>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <p>Kurt</p> 
                     </div>
-                    <div class="clearfix"></div>
-                    <div class="col-lg-12">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna” ”aliqua. Ut enim ad minim veniam, quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna” ”aliqua. Ut enim ad minim veniam, quis</p>   
-                        <div class="box fwidth fleft text-center"><a href="single.php" class="fcenter mas">Seguir leyendo</a></div>                 
-                    </div>
+                    
+                    <div class="box fwidth fleft text-center"><a href="#" class="fcenter mas">¡Conócelo!</a></div>
                 </div>
             </div>
-            <div class="item ">
-            	<img src="img/img-noticia-3.jpg" alt="">
+
+
+            <div class="item item-pareja"> 	 	
+            	<img src="img/img-noticia-3.jpg" alt=""><br><br>
                 <div class="container-fluid">
-                	<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                    	<h2>Titulo</h2>
+                	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <p><strong>Nombre</strong></p> 
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 fecha no-column text-left">
-                    	<p>12/12/12</p>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <p>Comino</p> 
                     </div>
-                    <div class="clearfix"></div>
-                    <div class="col-lg-12">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna” ”aliqua. Ut enim ad minim veniam, quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna” ”aliqua. Ut enim ad minim veniam, quis</p>   
-                        <div class="box fwidth fleft text-center"><a href="single.php" class="fcenter mas">Seguir leyendo</a></div>                 
-                    </div>
+                    
+                    <div class="box fwidth fleft text-center"><a href="#" class="fcenter mas">¡Conócelo!</a></div>
                 </div>
             </div>
-            <div class="item ">
-            	<img src="img/img-noticia-1.jpg" alt="">
+
+
+            <div class="item item-pareja"> 	 	
+            	<img src="img/perdido.jpg" alt=""><br><br>
                 <div class="container-fluid">
-                	<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                    	<h2>Titulo</h2>
+                	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <p><strong>Nombre</strong></p> 
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 fecha no-column text-left">
-                    	<p>12/12/12</p>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <p>Canela</p> 
                     </div>
-                    <div class="clearfix"></div>
-                    <div class="col-lg-12">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna” ”aliqua. Ut enim ad minim veniam, quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna” ”aliqua. Ut enim ad minim veniam, quis</p>   
-                        <div class="box fwidth fleft text-center"><a href="single.php" class="fcenter mas">Seguir leyendo</a></div>                 
-                    </div>
+                    
+                    <div class="box fwidth fleft text-center"><a href="#" class="fcenter mas">¡Conócelo!</a></div>
                 </div>
             </div>
-            <div class="item ">
-            	<img src="img/img-noticia-2.jpg" alt="">
+
+
+            <div class="item item-pareja"> 	 	
+            	<img src="img/home-cat.jpg" alt=""><br><br>
                 <div class="container-fluid">
-                	<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                    	<h2>Titulo</h2>
+                	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <p><strong>Nombre</strong></p> 
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 fecha no-column text-left">
-                    	<p>12/12/12</p>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <p>Pocha</p> 
                     </div>
-                    <div class="clearfix"></div>
-                    <div class="col-lg-12">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna” ”aliqua. Ut enim ad minim veniam, quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna” ”aliqua. Ut enim ad minim veniam, quis</p>   
-                        <div class="box fwidth fleft text-center"><a href="single.php" class="fcenter mas">Seguir leyendo</a></div>                 
-                    </div>
+                    
+                    <div class="box fwidth fleft text-center"><a href="#" class="fcenter mas">¡Conócelo!</a></div>
                 </div>
             </div>
+
+
+            <div class="item item-pareja"> 	 	
+            	<img src="img/img-noticia-3.jpg" alt=""><br><br>
+                <div class="container-fluid">
+                	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <p><strong>Nombre</strong></p> 
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <p>Rex</p> 
+                    </div>
+                    
+                    <div class="box fwidth fleft text-center"><a href="#" class="fcenter mas">¡Conócelo!</a></div>
+                </div>
+            </div>
+
+            <div class="item item-pareja"> 	 	
+            	<img src="img/perdido.jpg" alt=""><br><br>
+                <div class="container-fluid">
+                	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <p><strong>Nombre</strong></p> 
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <p>Chocolito</p> 
+                    </div>
+                    
+                    <div class="box fwidth fleft text-center"><a href="#" class="fcenter mas">¡Conócelo!</a></div>
+                </div>
+            </div>
+            
+            
         </div>
     		<section id="paginacion" class="box fwidth">
     			<div class="container-fluid">
@@ -124,7 +161,7 @@
     	<div id="sidebar-pregunta-sj" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
     		<div class="container-fluid">
     			<div id="formulario-pregunta" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    				<h3>¡Publica tu afiche¡</h3>
+    				<h3>¡Publica a tu mascota¡</h3>
     				<p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </small></p>
     				<form>
     					<label for="">Tu nombre</label><br>
@@ -133,22 +170,17 @@
     					<label for="">Tu Correo</label><br>
     					<input type="email" name="" value="" placeholder="Mail" />
     					<div class="clearfix"></div>
-    					<label for="">Tu afiche</label><br>
-    					<input type="file">
-    					
+    					<label for="">Describe a tu mascota</label><br>
+    					<textarea rows="5" placeholder="¡Escribe tu mejor descripción!"></textarea>
+                        <div class="clearfix"></div>
+                        <label for="">Adjúntanos la mejor foto</label>
+                        <input type="file">
+                        <div class="clearfix"></div>
+                        <input type="submit" value="enviar">
     				</form>
     			</div>
     			<div class="clearfix"></div>
-    			<div id="buscador-preguntas" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    				<div class="box fwidth text-left titular-seccion">
-    					<h6>Busca en las mascotas perdidas</h6>
-    				</div>
-    				<form>
-    					<input type="text" name="" value="" />
-    					<input type="submit" name="" value="Buscar" />
-    				</form>
-    			</div>
-    			<div class="clearfix"></div>
+    			
     			<div class="caja-sidebar-home box fwidth no-column mascota-perdida">
     				<div class="box fwidth text-left titular-seccion">
     					<h6>Facebook</h6>

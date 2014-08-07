@@ -65,21 +65,20 @@
         			<i class="fa fa-shopping-cart fa-2x" style="color: #5792c9;"></i> 
         		</div>
         		<h4>Productos destacados</h4>
-						<div id="slider-produtos-home" class="flexslider">
-							<ul class="slides">
-								<li>
-									<img src="img/formato-img-producto.jpg" alt="">
-									<p>Precio: $6990</p>
-									<p><a href="#">Compralo on-line</a></p>
-								</li>
-								<li>
-									<img src="img/formato-img-producto.jpg" alt="">
-									<p>Precio: $6990</p>
-									<p><a href="#">Compralo on-line</a></p>
-								</li>
-							</ul>
-						</div>
-        		        
+                <div id="slider-produtos-home" class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <img src="img/formato-img-producto.jpg" alt="">
+                            <p>Precio: $6990</p>
+                            <p><a href="#">Compralo on-line</a></p>
+                        </li>
+                        <li>
+                            <img src="img/formato-img-producto.jpg" alt="">
+                            <p>Precio: $6990</p>
+                            <p><a href="#">Compralo on-line</a></p>
+                        </li>
+                    </ul>
+                </div>
         	</div>
         </div>
         
