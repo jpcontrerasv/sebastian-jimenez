@@ -427,17 +427,22 @@ font-style: italic;
 	background:#FFF;
 }
 #notas .item-perdida {
-	min-height: 300px;
+	min-height: 50px;
 	padding-bottom: 0;
 }
+#notas .item-adopcion {
+	min-height: 50px;
+	padding-bottom: 0;
+}
+
 /* para dispositivo */
 @media only screen and (max-device-width: 480px) {
-#notas .item-perdida {
-	min-height: 100px;
-	padding-bottom: 0;
+	#notas .item-perdida {
+		min-height: 100px;
+		padding-bottom: 0;
+	}
 }
-}
-#notas .item-perdida .lupa {
+#notas .item-perdida .lupa, #notas .item-adopcion .lupa {
 	position: absolute;
 	display: block;
 	width: 100%;
@@ -450,10 +455,10 @@ font-style: italic;
 	opacity: 0;
 	transition:all .5s ease;
 }
-#notas .item-perdida:hover .lupa {
+#notas .item-perdida:hover .lupa, #notas .item-adopcion:hover .lupa {
 	opacity: 1;
 }
-#notas .item-perdida .lupa a {
+#notas .item-perdida .lupa a, #notas .item-adopcion .lupa a {
 	display: table;
 	width: 100%;
 	height: 100%;
@@ -462,11 +467,13 @@ font-style: italic;
 	font-weight: 700;
 	font-style: italic;
 }
-#notas .item-perdida .lupa a span {
+#notas .item-perdida .lupa a span, #notas .item-adopcion .lupa a span {
 	display: table-cell;
 	vertical-align: middle;
 	height: 100%;
 }
+
+
 #notas .item img {
 	width:100%;
 }
@@ -700,9 +707,47 @@ font-style: italic;
 .contacto form textarea {
 	height:150px;
 }
-.contacto form span.requerido {
+span.requerido {
 	color:#F00;
 }
+
+/*Registro*/
+#registro {
+	background:#FFF;
+	padding:20px 0;
+	margin-bottom:100px;
+}
+#registro input, #registro textarea{
+	display:inline-block;
+	width:100%;
+	border:1px solid rgba(102,102,102,.4);
+	border-radius:4px;
+	padding:3px 12px;
+}
+#registro input:hover {
+	border:1px solid rgba(102,102,102,1);
+}
+#registro label {
+	display:block;
+	width:100%;
+}
+#registro select.registro {
+	width:95%;
+}
+#registro input[type="radio"]{
+	display:inline-block;
+	width:auto;
+}
+#registro input[type="submit"] {
+	display:inline-block;
+	text-align:center;
+	width:25%;
+}
+
+
+
+
+
 /*Clinicas veterinarias*/
 #filtros-tipo, #filtros-secundarios {
 	background:#FFF;
@@ -928,6 +973,50 @@ font-style: italic;
 .datos-clinica a {
 	color: #07a18f;
 }
+/*Profesionales*/
+#profesionales {
+	background:#FFF;
+	margin-top:20px;
+}
+#profesionales form {
+	display:block;
+	width:100%;
+	float:left;
+	margin:50px 0;
+}
+#profesionales form input, #profesionales form label, #profesionales form textarea {
+	display:block;
+	float:left;
+	width:100%;
+	margin:5px;
+}
+#profesionales form input, #profesionales form textarea {
+	border:1px solid rgba(50, 50, 50, 0.5);
+	border-radius:12px;
+	padding:12px;
+	transition:all ease .5s;
+	-moz-transition:all ease .5s;
+	-webkit-transition:all ease .5s;
+}
+#profesionales form input[type="submit"]{
+	border:none!important;
+	width:50%;
+	display:block;
+	margin-top:20px;
+}
+#profesionales form input:hover, #profesionales form textarea:hover {
+	-webkit-box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    1px 1px 4px 0px rgba(50, 50, 50, 0.5);
+	box-shadow:         1px 1px 4px 0px rgba(50, 50, 50, 0.5);
+	border:1px solid rgba(50, 50, 50, 0.1);
+}
+#profesionales .vision-profesionales p{
+	padding-top:90px;
+	line-height:2em;
+	font-style:italic;
+}
+
+
 /*Productos*/
 #productos {
 	padding-top: 26px;
@@ -1082,6 +1171,9 @@ a.list-group-item {
 	border-radius: 5px;
 	transition:all .5s ease;
 }
+.pregunta-single {
+	margin-top:40px;
+}
 .pregunta:hover {
 	background: rgba(255,255,255,1);
 	border: 1px solid rgba(0,0,0,1);
@@ -1109,9 +1201,49 @@ a.list-group-item {
 .pregunta:hover a.mas {
 	opacity: 1;
 }
+/*Busco pareja*/
+.single-pareja {
+	margin-top:40px;
+}
+.retrato-pareja {
+	margin-bottom:30px;
+}
+
 #buscador-preguntas {
 	margin: 20px 0;
 }
+#formulario-pregunta {
+	position:relative;
+}
+.login-adv {
+	position:absolute;
+	display:block;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,.7);
+	border-radius:6px;
+	z-index:9;
+}
+.login-adv p{
+	display:table;
+	width:100%;
+	height:100%;
+}
+.login-adv p a.cell{
+	display:table-cell;
+	vertical-align:middle;
+	color:#FFF;
+	text-decoration:none;
+	padding:0 10%;
+}
+.login-adv p a.cell:hover{
+	text-decoration:underline;
+}
+
+
+
 #formulario-pregunta form {
 	margin-bottom: 10px;
 }
@@ -1148,6 +1280,30 @@ a.list-group-item {
 	background:rgba(102,102,102,.4);
 }
 
+#tabs-falsas {
+	border-bottom:1px solid;
+}
+#tabs-falsas a {
+	font-size:1.2em;
+	text-transform:uppercase;
+	font-weight:600;
+	display:inline-block;
+	padding:6px 12px;
+	border-top:1px solid;
+	border-left:1px solid;
+	border-right:1px solid;
+	border-radius:4px;
+	margin-bottom:-3px;
+	color:#000;
+	opacity:.5;
+}
+#tabs-falsas a.active{
+	background:#FFF;
+	opacity:1;
+	
+}
+
+
 /*Busco pareja*/
 
 #notas .item-pareja {
@@ -1162,6 +1318,10 @@ a.list-group-item {
 }
 }
 
+#filtro-tema {
+	border-bottom:1px solid;
+	margin:20px 0;
+}
 
 /*Nube de tags*/
 #tags-preguntas {

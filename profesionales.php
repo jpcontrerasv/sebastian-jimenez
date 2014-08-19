@@ -12,341 +12,39 @@
 	<section id="header-secciones" class="box fwidth text-center">
     	<div class="container no-column">
         	<div class="col-lg-12 text-center no-column">
-		    	<img src="img/img-header-clinicas.jpg" alt="">
+		    	<img src="img/header-profesionales.jpg" alt="">
         	</div>
         </div>
     </section>
     
-	<section class="box fwidth">
-        <div id="filtros-tipo" class="container">
-        	<div class="col-lg-12 col-xs-12">
-                <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
-                    <li class="active"><a href="#animales" data-toggle="tab"><i class="fa fa-paw"></i> Animales</a> </li>
-                    <li><a href="#especialidad" data-toggle="tab"><i class="fa fa-user"></i> Especialidad</a> </li>
-                    <li><a href="#ubicacion" data-toggle="tab"><i class="fa fa-map-marker"></i> Ubicación</a> </li>
-                </ul>
+	<section class="box fcenter">
+    	<div id="profesionales" class="container no-column">
+        	<div class="col-lg-12 text-center">
+            	<h2>¡Se parte de nuestro sitio!</h2>
             </div>
-        </div>
-        <div class="clearfix"></div>
-        
-        <div id="filtros-secundarios" class="container">
-        	<form>
-            <div id="my-tab-content" class="tab-content">
-                <div class="tab-pane active" id="animales">
-                    <label><input class="check-animal" type="checkbox" name="animales" value="todos" id="animales_0">Todos</label>
-                    <label><input class="check-animal" type="checkbox" name="animales" value="perros" id="animales_1">Perros</label>
-                    <label><input class="check-animal" type="checkbox" name="animales" value="gatos" id="animales_2">Gatos</label>
-                    <label><input class="check-animal" type="checkbox" name="animales" value="mamiferos" id="animales_2">Pequeños Mamíferos</label>
-                    <label><input class="check-animal" type="checkbox" name="animales" value="aves" id="animales_2">Aves</label>
-                    <label><input class="check-animal" type="checkbox" name="animales" value="reptiles" id="animales_2">Reptiles</label>
-                </div>
-                <div class="tab-pane" id="especialidad">
-                    <label><input type="checkbox" name="Especialidad" value="todos" id="Especialidad_0">Todos</label>
-                    <label><input type="checkbox" name="Especialidad" value="dermatologia" id="Especialidad_1">Dermatología</label>
-                </div>
-                <div class="tab-pane" id="ubicacion">
-                	<!--<p>Selecciona ciudad</p>
-                    <select id="single">
-                    	<option>&nbsp;</option>
-                        <option>Santiago</option>
-                        <option>Valparaíso</option>
-                    </select>
-                    <select id="multiple" multiple="multiple">
-                        <option>Providencia</option>
-                        <option>Santiago Centro</option>
-                        <option>Estación Central</option>
-                    </select>-->
-                    <label><input type="checkbox" name="Ubicacion" value="Todos" id="Ubicacion_0">Todos</label>
-                    <label><input type="checkbox" name="Ubicacion" value="Santiago Centro" id="Ubicacion_1">Santiago Centro</label>
-                    <label><input type="checkbox" name="Ubicacion" value="Providencia" id="Ubicacion_2">Providencia</label>
+            <div class="clearfix"></div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-left">
+            	<form>
+                	<label for="">¿Cuál es tu nombre?</label>
+                	<input type="text" placeholder="Nombre"><br>
+                	<label for="">¿Cuál es tu especialidad?</label>
+                	<input type="text" placeholder="Especialidad"><br>
+                	<label for="">¿Qué experiencia tienes?</label><br>
+                	<textarea></textarea><br><br>
                     
-                                        
-                </div>
+                    <input type="submit" value="enviar">
+                    
+                </form>
             </div>
-            </form>
-        </div>
-        <div class="clearfix"></div>
-        
-        <div id="filtrado" class="box fwidth">
-        	<div class="container">
-            	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contenedor-filtros">
-                	<p>Filtros seleccionados:&nbsp;&nbsp;<span id="animales-seleccionados"></span>&nbsp;<span id="especialidad-seleccionada"></span>&nbsp;<span id="ubicacion-seleccionada"></span></p>
-                </div>
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
-                	<button class="btn btn-default btn-success"><span class="glyphicon glyphicon-ok"></span> Filtrar</button>
-                </div>
-            </div>
-            <!--/container-->
-        </div>
-        <div class="clearfix"></div>
-    </section>    
-    
-    
-	<section id="lista-de-clinicas" class="box fwidth">
-    	<div class="container no-column">
-        
-        	<div class="item-clinica text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid">
-                	<div class="col-lg-12 text-center">
-                    	<h4>veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
-                </div>
-            </div>
-            
-            
-        	<div class="item-clinica text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid">
-                	<div class="col-lg-12 text-center">
-                    	<h4>veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
-                </div>
-            </div>
-        	<div class="item-clinica text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid">
-                	<div class="col-lg-12 text-center">
-                    	<h4>veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
-                </div>
-            </div>
-        	<div class="item-clinica text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid">
-                	<div class="col-lg-12 text-center">
-                    	<h4>veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
-                </div>
-            </div>
-
-        	<div class="item-clinica text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid">
-                	<div class="col-lg-12 text-center">
-                    	<h4>veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
-                </div>
-            </div>
-
-        	<div class="item-clinica text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid">
-                	<div class="col-lg-12 text-center">
-                    	<h4>veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
-                </div>
-            </div>
-
-        	<div class="item-clinica text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid">
-                	<div class="col-lg-12 text-center">
-                    	<h4>veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
-                </div>
-            </div>
-
-        	<div class="item-clinica text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid">
-                	<div class="col-lg-12 text-center">
-                    	<h4>veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
-                </div>
-            </div>
-
-        	<div class="item-clinica text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid">
-                	<div class="col-lg-12 text-center">
-                    	<h4>veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
-                </div>
-            </div>
-
-        	<div class="item-clinica text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid">
-                	<div class="col-lg-12 text-center">
-                    	<h4>veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
-                </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 text-justify vision-profesionales">
+            	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             
         </div>
     </section>    
+    
+    
+	    
     
     
     <?php include 'footer.php'; ?>

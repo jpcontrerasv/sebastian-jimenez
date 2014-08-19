@@ -5,8 +5,7 @@
     	<div class="container no-column">
             <div class="col-lg-12 text-left no-column">
                 <ol class="breadcrumb">
-                  <li><a href="busco-pareja-tema.php">Inicio</a></li>
-                  <li><a href="#">Servicios</a></li>
+                  <li><a href="#">Inicio</a></li>
                   <li class="active">Busco Pareja</li>
                 </ol>
             </div>
@@ -30,12 +29,15 @@
                 	<h6>Parejas</h6>
                 </div>
                 <ul>
-                    <li><a href="busco-pareja-tema.php">Perros (22)</a></li>
-                    <li><a href="busco-pareja-tema.php">Gatos (16)</a></li>
-                    <li><a href="busco-pareja-tema.php">Torutgas (15)</a></li>
-                    <li><a href="busco-pareja-tema.php">Llamas (12)</a></li>
+                    <li><a href="#">Perros (22)</a></li>
+                    <li><a href="#">Gatos (16)</a></li>
+                    <li><a href="#">Torutgas (15)</a></li>
+                    <li><a href="#">Llamas (12)</a></li>
                 </ul>
                 
+            </div>
+            <div id="filtro-tema" class="box fwidth fleft">
+            	<h2>Parejas para: Llamas</h2>
             </div>
         
     		<div id="notas" class="box fwidth">
@@ -148,11 +150,11 @@
     			<div class="container-fluid">
     		    	<div class="col-lg-12 text-center">
     		            <ul class="pagination pagination-lg">
-    		                <li><a href="busco-pareja-tema.php">&laquo;</a></li>
-    		                <li><a href="busco-pareja-tema.php">1</a></li>
-    		                <li><a href="busco-pareja-tema.php">2</a></li>
-    		                <li><a href="busco-pareja-tema.php">3</a></li>
-    		                <li><a href="busco-pareja-tema.php">&raquo;</a></li>
+    		                <li><a href="#">&laquo;</a></li>
+    		                <li><a href="#">1</a></li>
+    		                <li><a href="#">2</a></li>
+    		                <li><a href="#">3</a></li>
+    		                <li><a href="#">&raquo;</a></li>
     		            </ul>
     		        </div>
     		    </div>

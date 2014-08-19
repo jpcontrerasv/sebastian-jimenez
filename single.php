@@ -127,7 +127,7 @@
         						</div>
         						<div class="clearfix"></div>
         						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-        							<a href="#" class="vermas">Ver más.</a>
+        							<a href="mascotas-perdidas.php" class="vermas">Ver más.</a>
         						</div>
         						
         					</div>

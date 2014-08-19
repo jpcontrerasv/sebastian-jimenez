@@ -16,7 +16,7 @@
 	<section id="header-secciones" class="box fwidth text-center">
     	<div class="container no-column">
         	<div class="col-lg-12 text-center no-column">
-		    	<img src="img/header-bloh.jpg" alt="">
+		    	<a href="preguntale-a-sj.php"><img src="img/header-sj.jpg" alt=""></a>
         	</div>
         </div>
     </section>
@@ -29,7 +29,7 @@
     		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
     			<div class="container-fluid">
     				
-    				<div class="pregunta box fwidth fleft">
+    				<div class="pregunta pregunta-single box fwidth fleft">
     					<h3>¿Qué vacunas necesita un gato?</h3>
     					<div class="box fleft fwidth meta-pregunta">
 	    					<span>Por: <strong>Gabriel Díaz</strong> </span>

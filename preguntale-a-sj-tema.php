@@ -5,8 +5,8 @@
     	<div class="container no-column">
             <div class="col-lg-12 text-left no-column">
                 <ol class="breadcrumb">
-                  <li><a href="preguntale-a-sj-tema.php">Inicio</a></li>
-                  <li><a href="preguntale-a-sj-tema.php">Servicios</a></li>
+                  <li><a href="#">Inicio</a></li>
+                  <li><a href="#">Servicios</a></li>
                   <li class="active">Pregúntale a Sebastián Jiménez</li>
                 </ol>
             </div>
@@ -32,21 +32,24 @@
                 	<h6>Filtra por temas</h6>
                 </div>
                 <ul>
-                    <li><a href="preguntale-a-sj-tema.php">Gatos (22)</a></li>
-                    <li><a href="preguntale-a-sj-tema.php">Perros (16)</a></li>
-                    <li><a href="preguntale-a-sj-tema.php">Halcones (15)</a></li>
-                    <li><a href="preguntale-a-sj-tema.php">Canarios (12)</a></li>
-                    <li><a href="preguntale-a-sj-tema.php">Tortugas (11)</a></li>
-                    <li><a href="preguntale-a-sj-tema.php">Canarios (10)</a></li>
-                    <li><a href="preguntale-a-sj-tema.php">Reptiles (8)</a></li>
-                    <li><a href="preguntale-a-sj-tema.php">Alimentación (7)</a></li>
-                    <li><a href="preguntale-a-sj-tema.php">Vacunas (7)</a></li>
-                    <li><a href="preguntale-a-sj-tema.php">Pulgas (5)</a></li>
-                    <li><a href="preguntale-a-sj-tema.php">Parásitos (4)</a></li>
-                    <li><a href="preguntale-a-sj-tema.php">cachorros (3)</a></li>
-                    <li><a href="preguntale-a-sj-tema.php">Fracturas (2)</a></li>
+                    <li><a href="#">Gatos (22)</a></li>
+                    <li><a href="#">Perros (16)</a></li>
+                    <li><a href="#">Halcones (15)</a></li>
+                    <li><a href="#">Canarios (12)</a></li>
+                    <li><a href="#">Tortugas (11)</a></li>
+                    <li><a href="#">Canarios (10)</a></li>
+                    <li><a href="#">Reptiles (8)</a></li>
+                    <li><a href="#">Alimentación (7)</a></li>
+                    <li><a href="#">Vacunas (7)</a></li>
+                    <li><a href="#">Pulgas (5)</a></li>
+                    <li><a href="#">Parásitos (4)</a></li>
+                    <li><a href="#">cachorros (3)</a></li>
+                    <li><a href="#">Fracturas (2)</a></li>
                 </ul>
-                
+            </div>
+            
+            <div id="filtro-tema" class="box fwidth fleft">
+            	<h2>Tema: Cachorros</h2>
             </div>
             
     			<div class="container-fluid">
@@ -151,11 +154,11 @@
     				<div class="container-fluid">
     			    	<div class="col-lg-12 text-center">
     			            <ul class="pagination pagination-lg">
-    			                <li><a href="preguntale-a-sj-tema.php">&laquo;</a></li>
-    			                <li><a href="preguntale-a-sj-tema.php">1</a></li>
-    			                <li><a href="preguntale-a-sj-tema.php">2</a></li>
-    			                <li><a href="preguntale-a-sj-tema.php">3</a></li>
-    			                <li><a href="preguntale-a-sj-tema.php">&raquo;</a></li>
+    			                <li><a href="#">&laquo;</a></li>
+    			                <li><a href="#">1</a></li>
+    			                <li><a href="#">2</a></li>
+    			                <li><a href="#">3</a></li>
+    			                <li><a href="#">&raquo;</a></li>
     			            </ul>
     			        </div>
     			    </div>

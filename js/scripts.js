@@ -6,10 +6,15 @@ $(window).load(function(){
 		animation: "slide",
 	});
   
-  $('#slider-produtos-home').flexslider({
-  		animation: "slide",
-  		controlNav: false, 
-  	});
+	$('#slider-produtos-home').flexslider({
+		animation: "slide",
+		controlNav: false, 
+	});
+	
+	$("#my-calendar").zabuto_calendar({
+		language: "es",
+		today: true,
+	});
   
   
 	//masonry
@@ -22,6 +27,26 @@ $(window).load(function(){
 	
 	
 	
+$( '#fecha-de-nacimiento' ).pickadate({
+    selectYears: 200,
+    selectMonths: true
+})
+
+
+$('#tienesmascota_0').click(function() {
+	if($(this).is(':checked')) {
+		$("#si-mascota").show().removeClass('ocultar');
+	}
+});
+$('#tienesmascota_1').click(function() {
+	if($(this).is(':checked')) {
+		$("#si-mascota").hide().addClass('ocultar');
+	}
+});
+
+$('.login-adv').click(function() {
+	$(this).fadeOut(500); 
+});
 
 	
 	/*$(".rand-color").each(function() {

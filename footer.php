@@ -36,6 +36,15 @@
     <script src="js/jquery.flexslider-min.js"></script>
     <script src="js/masonry.pkgd.min.js"></script>
     <script src="js/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/zabuto_calendar.min.js" type="text/javascript" charset="utf-8"></script>
+	
+    <!--pick a date-->    
+	<script src="js/picker.js"></script>
+    <script src="js/picker.date.js"></script>
+    <script src="js/picker.time.js"></script>
+    <script src="js/translations/es_ES.js"></script>
+
+    
     <script src="js/scripts.js"></script>
     
   </body>

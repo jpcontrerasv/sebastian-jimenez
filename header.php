@@ -11,6 +11,13 @@
 		<link href="css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 		<link type="text/css" rel="stylesheet" href="css/featherlight.min.css" title="Featherlight Styles" />
+        <link type="text/css" rel="stylesheet" href="css/zabuto_calendar.min.css" title="Featherlight Styles" />
+        
+        <!--pick a date-->
+        <link rel="stylesheet" href="css/themes/default.css" id="theme_base">
+        <link rel="stylesheet" href="css/themes/default.date.css" id="theme_date">
+        <link rel="stylesheet" href="css/themes/default.time.css" id="theme_time">
+
 		<link href="style.css" rel="stylesheet">
     
     
@@ -63,13 +70,15 @@
                   <a href="#" data-toggle="dropdown" class="dropdown-toggle">Servicios <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li><a href="preguntale-a-sj.php">Pregúntale a SJ</a></li>
-                    <li><a href="mascotas-perdidas.php">Mascotas perdidas</a></li>
+                    <li><a href="mascotas-perdidas.php">Mascotas Perdidas</a></li>
+                    <li><a href="mascotas-encontradas.php">Mascotas Encontradas</a></li>
                     <li><a href="busco-pareja.php">Busco pareja</a></li>
-                    <li><a href="#">Agenda de adopciones</a></li>
+                    <li><a href="agenda-de-adopciones.php">Agenda de adopciones</a></li>
                   </ul>
                 </li>
                 <li class="dropdown"><a href="productos.php">Productos</a></li>
                 <li class="dropdown"><a href="contacto.php">Contacto</a></li>
+                <li class="dropdown"><a href="registro.php">Ingresa</a></li>
                 	
                 
                 
@@ -79,13 +88,13 @@
                 
             </nav>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 buscador-menu text-center">
+        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 buscador-menu text-center">
          	<form>
         		<input type="text" name="" value="" placeholder="Busca en el sitio" />
         		<input type="submit" name="" value="Enviar" />
         	</form>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
             <ol>
                 <li><a href="#"><span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -99,6 +108,11 @@
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
                 </span></a></li>
+                <li><a href="#"><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                </span></a>
+                <span style="font-size:9px;">Hola Katherine Francisca</span></li>
             </ol>
         </div>
     
