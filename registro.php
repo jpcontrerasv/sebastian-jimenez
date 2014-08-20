@@ -12,7 +12,7 @@
 	<section id="header-secciones" class="box fwidth text-center">
     	<div class="container no-column">
         	<div class="col-lg-12 text-center no-column">
-		    	<img src="img/header-contacto.jpg" alt="">
+		    	<img src="img/registro.jpg" alt="">
         	</div>
         </div>
     </section>
@@ -48,7 +48,7 @@
                                 <label>Contraseña</label>
                             </div>
                             <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-left">
-                                <input type="password" autocomplete="off">
+                                <input type="password" class="input-md"  autocomplete="off">
                             </div>
                             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-left no-column">
                                 <span class="requerido">*</span>
@@ -84,7 +84,7 @@
                                 <label>Nombre</label>
                             </div>
                             <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-left">
-                                <input type="text">
+                                <input type="text" class="input-md">
                             </div>
                             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-left no-column">
                                 <span class="requerido">*</span>
@@ -99,7 +99,7 @@
                                 <label>Apellido</label>
                             </div>
                             <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-left">
-                                <input type="text">
+                                <input type="text" class="input-md">
                             </div>
                             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-left no-column">
                                 <span class="requerido">*</span>
@@ -169,7 +169,7 @@
                                 <label>RUT</label>
                             </div>
                             <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-left">
-                                <input type="text">
+                                <input type="text" class="input-md">
                             </div>
                             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-left no-column">
                                 <span class="requerido">*</span>
@@ -188,7 +188,7 @@
                                 <label>Dirección</label>
                             </div>
                             <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-left">
-                                <input type="text">
+                                <input type="text" class="input-md">
                             </div>
                             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-left no-column">
                                 <span class="requerido">*</span>
@@ -203,7 +203,7 @@
                                 <label>Nª</label>
                             </div>
                             <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-left">
-                                <input type="text">
+                                <input type="text" class="input-md">
                             </div>
                             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-left no-column">
                                 <span class="requerido">*</span>
@@ -272,7 +272,7 @@
                                 <label>¿Cómo se llama?</label>
                             </div>
                             <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-left">
-                                <input type="text">
+                                <input type="text" class="input-md">
                             </div>
                             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-left no-column">
                                 <span class="requerido">*</span>
@@ -306,12 +306,15 @@
                                 <label>¿Qué tipo de comida le das?</label>
                             </div>
                             <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-left">
-                                <input type="text">
+                                <input type="text" class="input-md">
                             </div>
                             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-left no-column">
                                 <span class="requerido">*</span>
                             </div>
-                            <div class="clearfix"></div>
+                            <div class="clearfix"></div><br><br><br>
+                            
+                            
+                            
                             
                             </div>
                             <!--si no-->
@@ -320,6 +323,7 @@
                         </div>
                                         
                     </div><br><br>
+
 
 
                     <br><br><div class="box fwidth text-left titular-seccion">
@@ -333,7 +337,7 @@
                                 <label>Contraseña</label>
                             </div>
                             <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-left">
-                                <input type="password" autocomplete="off">
+                                <input type="password" class="input-md"  autocomplete="off">
                             </div>
                             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-left no-column">
                                 <span class="requerido">*</span>
@@ -348,7 +352,7 @@
                                 <label>Repite tu contraseña</label>
                             </div>
                             <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-left">
-                                <input type="password" autocomplete="off">
+                                <input type="password" class="input-md"  autocomplete="off">
                             </div>
                             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-left no-column">
                                 <span class="requerido">*</span>

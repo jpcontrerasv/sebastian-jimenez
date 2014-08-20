@@ -52,9 +52,10 @@
             
             
             
-            <div class="box fwidth text-left titular-seccion">
-                <h6>Mascotas encontradas recientes</h6>
+            <div id="filtro-tema" class="box fwidth fleft">
+            	<h2>Resultados por ciudad: Concepción</h2>
             </div>
+            
     		<div id="notas" class="box fwidth">
             
             <div class="item item-perdida">

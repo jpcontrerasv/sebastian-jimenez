@@ -151,15 +151,12 @@
     					<label for="">Tu Correo</label><br>
     					<input type="email" name="" value="" placeholder="Mail" />
     					<div class="clearfix"></div>
-                        <label for="">¿En qué ciudad se perdió?</label>
-                        <input type="text" name="" value="" placeholder="Escribe el nombre de la ciudad" />
-                        <div class="clearfix"></div>
     					<label for="">Tu afiche</label><br>
     					<input type="file">
     					<div class="clearfix"></div>
                         <div class="container-fluid no-column">
                             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-right no-column">
-                                <p>Al enviar mi afiche estoy de acuerdo con las <a href="#">reglas</a> de publicación.</p>
+                                <p>Al enviar mi afiche estoy de acuerdo con las <a href="#" data-featherlight="#pop-info-reglas">reglas</a> de publicación.</p>
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-left">
                                 <input name="ok" type="checkbox" value="oka">
@@ -176,7 +173,13 @@
     			</div>
     			<div class="clearfix"></div>
     			
-    			
+                <div class="reglas" id="pop-info-reglas">
+                    <h2>Reglas de Publicación</h2>
+                    <ul>
+                    	<li><p>Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
+                        <li><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
+                    </ul>
+                </div>	
     			
     			
     			

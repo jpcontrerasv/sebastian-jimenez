@@ -6,7 +6,9 @@
             <div class="col-lg-12 text-left no-column">
                 <ol class="breadcrumb">
                   <li><a href="index.php">Inicio</a></li>
-                  <li class="active">Mascotas Encontradas</li>
+                  <li><a href="#">Servicios</a></li>
+                  <li><a href="mascotas-encontradas.php">Mascotas Encontrada</a></li>
+                  <li class="active">mascota encontrada</li>
                 </ol>
             </div>
         </div>
@@ -21,66 +23,76 @@
     
     
     
-    <section id="blog-home" class="container no-column">
-    	
-    	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-        
-        	<div id="tabs-falsas" class="box fwidth fleft">
-            	<a href="mascotas-perdidas.php">Mascotas perdidas</a>
-                <a href="mascotas-encontradas.php" class="active">Mascotas Encontradas</a>                
-            </div>
-        
-        	<div id="filtro-perdidas" class="box fwidth fleft">
-            	<div class="box fwidth text-left titular-seccion">
-                	<h6>Filtra por ciudad</h6>
-                </div>
-                <ul>
-                    <li><a href="mascotas-encontradas-tema.php">Santiago (22)</a></li>
-                    <li><a href="mascotas-encontradas-tema.php">Concepción (16)</a></li>
-                    <li><a href="mascotas-encontradas-tema.php">Valparaíso (15)</a></li>
-                    <li><a href="mascotas-encontradas-tema.php">Iquique (12)</a></li>
-                    <li><a href="mascotas-encontradas-tema.php">La Serena (8)</a></li>
-                    <li><a href="mascotas-encontradas-tema.php">Talca (7)</a></li>
-                    <li><a href="mascotas-encontradas-tema.php">Temuco (7)</a></li>
-                    <li><a href="mascotas-encontradas-tema.php">Ovalle (6)</a></li>
-                    <li><a href="mascotas-encontradas-tema.php">Puerto Montt (5)</a></li>
-                    <li><a href="mascotas-encontradas-tema.php">Chiloé (2)</a></li>
-                    <li><a href="mascotas-encontradas-tema.php">Punta Arenas (2)</a></li>
-                </ul>
-                
-            </div>
-            
-            
-            
-            <div class="box fwidth text-left titular-seccion">
-                <h6>Mascotas encontradas recientes</h6>
-            </div>
-    		<div id="notas" class="box fwidth">
-            
-            <div class="item item-perdida">
-            	<img src="img/encontrada.jpg" alt="">
-            	<div class="lupa">
-            		<a href="single-mascota-encontrada.php"><span><i class="fa fa-search-plus fa-4x"></i></span></a>
-            	</div>
-            </div>
-        </div> 
-        
-    		<section id="paginacion" class="box fwidth">
+    <section id="preguntale-a-sj" class="box fwidth">
+    	<div class="container no-column">
+    		
+    		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
     			<div class="container-fluid">
-    		    	<div class="col-lg-12 text-center">
-    		            <ul class="pagination pagination-lg">
-    		                <li><a href="mascotas-encontradas-tema.php">&laquo;</a></li>
-    		                <li><a href="mascotas-encontradas-tema.php">1</a></li>
-    		                <li><a href="mascotas-encontradas-tema.php">2</a></li>
-    		                <li><a href="mascotas-encontradas-tema.php">3</a></li>
-    		                <li><a href="mascotas-encontradas-tema.php">&raquo;</a></li>
-    		            </ul>
-    		        </div>
-    		    </div>
-    		</section>
-    	</div>
-    	
-    	
+    				
+    				<div class="pregunta pregunta-single box fwidth fleft">
+	    				<div class="box fwidth fleft img-encontrada">
+                            <img src="img/encontrada.jpg" alt="">
+                        </div>
+                        
+    					<p>Encontrada por: <strong>Tanya Silva</strong></p>
+                        <p>Encontré a este macho pastor alemán en el sector lorem ipsum dolor sit amet...</p><br>
+    					<a href="#" data-featherlight="#pop-info-contacta" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-ok"></span> ¡Es mi mascota! Quiero contactar</a>
+                        <p><small>Recuerda que para contactar debes <a href="registro.php">estar registrado</a></small></p>
+                        
+    				</div>
+                    
+                    <div class="box fwidth fleft">
+                    	<p>Comparte</p>
+                        <div class="addthis_native_toolbox"></div>
+                    </div>
+    				
+                <div class="reglas" id="pop-info-contacta">
+                    <h2>Contacta</h2>
+                    <p><small>Recuerda que para contactar debes <a href="registro.php">estar registrado</a></small></p><br><br>
+                    
+                    <form class="form-horizontal" role="form">
+                      <div class="form-group">
+                        <label for="ejemplo_email_3" class="col-lg-2 control-label">Email</label>
+                        <div class="col-lg-10">
+                          <input type="email" class="form-control" id="ejemplo_email_3"
+                                 placeholder="Email">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="ejemplo_password_3" class="col-lg-2 control-label">Contraseña</label>
+                        <div class="col-lg-10">
+                          <input type="password" class="form-control" id="ejemplo_password_3" 
+                                 placeholder="Contraseña">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-lg-offset-2 col-lg-10">
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox"> No cerrar sesión
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-lg-offset-2 col-lg-10">
+                          <button type="submit" class="btn btn-default">Entrar</button>
+                        </div>
+                      </div>
+                    </form>
+                    <br><br>
+                    <p>Al ingresar, el correo de la persona que encontró a tu mascota <strong>se enviará a tu correo registrado</strong></p>
+                    
+                </div>	
+    				
+    				
+    			</div>
+    			
+    			
+    			
+    			
+    		</div>
+    		
     	<div id="sidebar-pregunta-sj" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
     		<div class="container-fluid">
     		
@@ -117,6 +129,7 @@
                             </div>
                             <div class="clearfix"></div><br>
                         </div>
+                        
                         
                         <input type="submit" value="Enviar">
     				</form>
@@ -163,12 +176,15 @@
     		
     		</div>
     	</div>
-    	
     		
+    	</div> 
+    
     </section>
     
     
     
     
-    <?php include 'footer.php'; ?>
     
+    
+    
+    <?php include 'footer.php'; ?>

@@ -7,7 +7,7 @@
                 <ol class="breadcrumb">
                   <li><a href="index.php">Inicio</a></li>
                   <li><a href="#">Servicios</a></li>
-                  <li><a href="preguntale-a-sj.php">Pregúntale a Sebastián Jiménez</a></li>
+                  <li><a href="preguntale-a-sj.php">Pregúntale a nuestros profesionales</a></li>
                   <li class="active">Single pregunta</li>
                 </ol>
             </div>
@@ -16,7 +16,7 @@
 	<section id="header-secciones" class="box fwidth text-center">
     	<div class="container no-column">
         	<div class="col-lg-12 text-center no-column">
-		    	<a href="preguntale-a-sj.php"><img src="img/header-sj.jpg" alt=""></a>
+		    	<a href="preguntale-a-sj.php"><img src="img/profesionales.jpg" alt=""></a>
         	</div>
         </div>
     </section>
@@ -67,7 +67,7 @@
     			<div class="container-fluid">
     			
     				<div id="formulario-pregunta" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    					<h3>Hazle tu pregunta a Sebastián Jiménez</h3>
+    					<h3>Hazle tu pregunta a nuestros profesionales</h3>
     					<p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </small></p>
     					<form>
     						<label for="">Tu nombre</label><br>

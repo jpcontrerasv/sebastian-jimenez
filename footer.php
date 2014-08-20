@@ -44,7 +44,8 @@
     <script src="js/picker.time.js"></script>
     <script src="js/translations/es_ES.js"></script>
 
-    
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=tarkadd"></script>
+
     <script src="js/scripts.js"></script>
     
   </body>

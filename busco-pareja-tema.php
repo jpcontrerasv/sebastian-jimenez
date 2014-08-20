@@ -164,8 +164,11 @@
     	<div id="sidebar-pregunta-sj" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
     		<div class="container-fluid">
     			<div id="formulario-pregunta" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="login-adv text-center">
+                    	<p><a class="cell">Para participar en nuestro sitio debes estar registrado</a></p>
+                    </div>
+                
     				<h3>¡Publica a tu mascota¡</h3>
-    				<p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </small></p>
     				<form>
     					<label for="">Tu nombre</label><br>
     					<input type="text" name="" value="" placeholder="Nombre" />
@@ -173,17 +176,40 @@
     					<label for="">Tu Correo</label><br>
     					<input type="email" name="" value="" placeholder="Mail" />
     					<div class="clearfix"></div>
+    					<label for="">Nombre de tu mascota</label><br>
+    					<input type="text" name="" value="" placeholder="Nombre de tu mascota" />
+    					<div class="clearfix"></div>
     					<label for="">Describe a tu mascota</label><br>
     					<textarea rows="5" placeholder="¡Escribe tu mejor descripción!"></textarea>
                         <div class="clearfix"></div>
                         <label for="">Adjúntanos la mejor foto</label>
                         <input type="file">
                         <div class="clearfix"></div>
+                        <div class="container-fluid no-column">
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-right no-column">
+                                <p>Al enviar mi mascota estoy de acuerdo con las <a href="#" data-featherlight="#pop-info-reglas">reglas</a> de publicación.</p>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-left">
+                                <input name="ok" type="checkbox" value="oka">
+                            </div>
+                            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-left no-column">
+                                <span class="requerido">*</span>
+                            </div>
+                            <div class="clearfix"></div><br>
+                        </div>
+                        
                         <input type="submit" value="enviar">
     				</form>
     			</div>
     			<div class="clearfix"></div>
-    			
+                <div class="reglas" id="pop-info-reglas">
+                    <h2>Reglas de Publicación</h2>
+                    <ul>
+                    	<li><p>Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
+                        <li><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
+                    </ul>
+                </div>	
+                
     			<div class="caja-sidebar-home box fwidth no-column mascota-perdida">
     				<div class="box fwidth text-left titular-seccion">
     					<h6>Facebook</h6>
@@ -205,6 +231,8 @@
     				</div>
     		</div>
     	</div>
+        
+        
     </section>
     
     

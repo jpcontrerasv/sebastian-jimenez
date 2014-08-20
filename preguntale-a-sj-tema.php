@@ -7,7 +7,7 @@
                 <ol class="breadcrumb">
                   <li><a href="#">Inicio</a></li>
                   <li><a href="#">Servicios</a></li>
-                  <li class="active">Pregúntale a Sebastián Jiménez</li>
+                  <li class="active">Pregúntale a nuestros profesionales</li>
                 </ol>
             </div>
         </div>
@@ -15,7 +15,7 @@
 	<section id="header-secciones" class="box fwidth text-center">
     	<div class="container no-column">
         	<div class="col-lg-12 text-center no-column">
-		    	<a href="preguntale-a-sj.php"><img src="img/header-sj.jpg" alt=""></a>
+		    	<a href="preguntale-a-sj.php"><img src="img/profesionales.jpg" alt=""></a>
         	</div>
         </div>
     </section>
@@ -170,8 +170,10 @@
     			<div class="container-fluid">
     			
     				<div id="formulario-pregunta" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    					<h3>Hazle tu pregunta a Sebastián Jiménez</h3>
-    					<p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </small></p>
+                    <div class="login-adv text-center">
+                    	<p><a class="cell">Para participar en nuestro sitio debes estar registrado</a></p>
+                    </div>
+    					<h3>Hazle tu pregunta a nuestros profesionales</h3>
     					<form>
     						<label for="">Tu nombre</label><br>
     						<input type="text" name="" value="" placeholder="Nombre" />
@@ -180,13 +182,33 @@
     						<input type="email" name="" value="" placeholder="Mail" />
     						<div class="clearfix"></div>
     						<label for="">Tu pregunta</label><br>
-    						<input type="text" name="" value="" placeholder="Haz tu pregunta" />
+                            <textarea placeholder="Haz tu pregunta"></textarea>
                             <div class="clearfix"></div>
+                            <div class="container-fluid no-column">
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-right no-column">
+                                    <p>Al enviar mi pregunta estoy de acuerdo con las <a href="#" data-featherlight="#pop-info-reglas">reglas</a> de publicación.</p>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-left">
+                                    <input name="ok" type="checkbox" value="oka">
+                                </div>
+                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-left no-column">
+                                    <span class="requerido">*</span>
+                                </div>
+                                <div class="clearfix"></div><br>
+                            </div>
+                            
+                            
                             <input type="submit" value="Envía tu pregunta">
     					</form>
     				</div>
     				<div class="clearfix"></div>
-    				
+                    <div class="reglas" id="pop-info-reglas">
+                        <h2>Reglas de Publicación</h2>
+                        <ul>
+                            <li><p>Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
+                            <li><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
+                        </ul>
+                    </div>	
     				
     				
     				
@@ -240,7 +262,7 @@
     			
     			</div>
     		</div>
-    		
+    		<!--sidebar-->
     	</div> 
     
     </section>

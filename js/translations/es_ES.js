@@ -8,6 +8,6 @@ jQuery.extend( jQuery.fn.pickadate.defaults, {
     today: 'hoy',
     clear: 'borrar',
     firstDay: 1,
-    format: 'dddd d !de mmmm !de yyyy',
+    format: 'd mmmm, yyyy',
     formatSubmit: 'yyyy/mm/dd'
 });

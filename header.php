@@ -41,22 +41,11 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
     <header class="container">
-        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 text-center">
+        <div class="col-lg-1 col-md-1 col-sm-6 col-xs-12 text-center no-column">
             <a href="index.php"><img src="img/logo-menu-header.png" alt=""></a>
         </div>
-        <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-column">
             <nav>
-            	<!--<ul>
-                    <li><a href="blog.php">Blog</a></li>
-                    <li><a href="#">clivets</a>
-                    	<ul>
-                    		<li><a href="clinicas-veterinarias-recomendadas.php">Clinicas veterinarias recomendadas</a></li>
-                    	</ul>
-                    </li>
-                    <li><a href="profesionales.php">Profesionales</a></li>
-                    <li><a href="productos.php">Productos</a></li>
-                    <li><a href="contacto.php">Contacto</a></li>
-                </ul>-->
                 <ul>
                 <li class="dropdown"><a href="blog.php">Blog</a></li>
                 <li class="dropdown">
@@ -69,7 +58,7 @@
                 <li class="dropdown">
                   <a href="#" data-toggle="dropdown" class="dropdown-toggle">Servicios <b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="preguntale-a-sj.php">Pregúntale a SJ</a></li>
+                    <li><a href="preguntale-a-sj.php">Pregúntale a nuestros profesionales</a></li>
                     <li><a href="mascotas-perdidas.php">Mascotas Perdidas</a></li>
                     <li><a href="mascotas-encontradas.php">Mascotas Encontradas</a></li>
                     <li><a href="busco-pareja.php">Busco pareja</a></li>
@@ -77,24 +66,27 @@
                   </ul>
                 </li>
                 <li class="dropdown"><a href="productos.php">Productos</a></li>
-                <li class="dropdown"><a href="contacto.php">Contacto</a></li>
+                <li class="dropdown">
+                	<a href="#" data-toggle="dropdown" class="dropdown-toggle">Acerca del sitio <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="contacto.php">Contacto</a></li>
+                        <li><a href="acerca-de-sebastian-jimenez.php">Acerca de Sebastián Jiménez</a></li>
+                    </ul>
+                </li>
                 <li class="dropdown"><a href="registro.php">Ingresa</a></li>
-                	
-                
-                
                 </ul>
                 
                 
                 
             </nav>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 buscador-menu text-center">
+        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 buscador-menu text-center no-column">
          	<form>
         		<input type="text" name="" value="" placeholder="Busca en el sitio" />
-        		<input type="submit" name="" value="Enviar" />
+        		<input type="submit" name="" value="Buscar" />
         	</form>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 no-column">
             <ol>
                 <li><a href="#"><span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -108,11 +100,11 @@
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
                 </span></a></li>
-                <li><a href="#"><span class="fa-stack fa-lg">
+                <li><a href="tu-perfil.php"><span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-user fa-stack-1x fa-inverse"></i>
                 </span></a>
-                <span style="font-size:9px;">Hola Katherine Francisca</span></li>
+                <span style="font-size:9px;">Hola Sebastián</span></li>
             </ol>
         </div>
     
