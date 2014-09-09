@@ -2,88 +2,84 @@
   
     <section id="bloq-index" class="container no-column">
         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-        <div class="box fwidth text-left titular-seccion">
-        	<h6>Noticias recientes</h6>
-        </div>
-        <div id="slider-noticias-recientes" class="flexslider">
-            <ul class="slides">
-                <li>
-                    <div class="container-slide box fwidth fleft">
-                        <div class="txt-slide box">
-                            <div class="tabla">
-                            	<div class="table-cell">
-                                    <h1><a href="#">Titular de noticia</a></h1>
-                                    <p>5 de Mayo de 2014</p>
+            <div class="box fwidth text-left titular-seccion">
+                <h6>Noticias recientes</h6>
+            </div>
+            <div id="slider-noticias-recientes" class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <div class="container-slide box fwidth fleft">
+                            <div class="txt-slide box">
+                                <div class="tabla">
+                                    <div class="table-cell">
+                                        <h1><a href="#">Titular de noticia</a></h1>
+                                        <p>5 de Mayo de 2014</p>
+                                    </div>
                                 </div>
                             </div>
+                            <img src="img/pslide-1.jpg" />
                         </div>
-                		<img src="img/pslide-1.jpg" />
-                    </div>
-                </li>
-                <li>
-                    <div class="container-slide box fwidth fleft">
-                        <div class="txt-slide box">
-                            <div class="tabla">
-                            	<div class="table-cell">
-                                    <h1><a href="#">Titular de otra noticia</a></h1>
-                                    <p>18 de Septiembre de 2014</p>
+                    </li>
+                    <li>
+                        <div class="container-slide box fwidth fleft">
+                            <div class="txt-slide box">
+                                <div class="tabla">
+                                    <div class="table-cell">
+                                        <h1><a href="#">Titular de otra noticia</a></h1>
+                                        <p>18 de Septiembre de 2014</p>
+                                    </div>
                                 </div>
                             </div>
+                            <img src="img/slide-2.jpg" />
                         </div>
-                		<img src="img/slide-2.jpg" />
-                    </div>
-                </li>
-                
-                
-                
-            </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
         
         
         
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+        <div id="pregunta-profesionales-home" class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
 	        <div class="box fwidth text-left titular-seccion">
-	        	<h6>SJ Responde</h6>
+	        	<h6>Consulta</h6>
 	        </div>
-	        
-        	<div class="box fwidth contenedor-bloq-home">
-	        	<div class="box fwidth fleft text-center" style="margin: 10px 0;">
-	        		<i class="fa fa-paw fa-2x" style="color: #ffbf74;"></i> 
-	        	</div>
-        		<h4>¿Qué vacunas debes poner a un cachorro?</h4>
+            <div class="permalink-img box fwidth fleft"><a href="#"><img src="img/img-preguntas-home-1.jpg" alt=""></a></div>       
+        	<div class="box fwidth contenedor-bloq-home text-center">       	
+        		<h5><a href="#">¿Qué vacunas debes poner a un cachorro?</a></h5>
         		<p>Los cachorros necesitan una serie de vacunas para crecer de manera saludable...</p>
-        		<a href="preguntale-a-sj.php" class="vermas">Ver más preguntas</a>
         	</div>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+        
+        
+        <div id="productos-home" class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
         	<div class="box fwidth text-left titular-seccion">
         		<h6>Tienda</h6>
         	</div>
-        	<div class="box fwidth contenedor-bloq-home">
-        		<div class="box fwidth fleft text-center" style="margin: 10px 0;">
-        			<i class="fa fa-shopping-cart fa-2x" style="color: #5792c9;"></i> 
-        		</div>
-        		<h4>Productos destacados</h4>
+            
+        	<div class="box fwidth contenedor-bloq-home" style="padding:0;">
+        		<h5 class="productos-home">Productos destacados</h5>
                 <div id="slider-produtos-home" class="flexslider">
                     <ul class="slides">
                         <li>
                             <img src="img/formato-img-producto.jpg" alt="">
-                            <p>Precio: $6990</p>
+                            <p><strong>Whiskas Junior</strong></p>
+                            <p>Senfte kuche</p>
+                            <hr>
+                            <p>Precio: <span>$6990</span></p>
                             <p><a href="#">Compralo on-line</a></p>
                         </li>
                         <li>
                             <img src="img/formato-img-producto.jpg" alt="">
-                            <p>Precio: $6990</p>
+                            <p><strong>Whiskas Junior</strong></p>
+                            <p>Senfte kuche</p>
+                            <hr>
+                            <p>Precio: <span>$6990</span></p>
                             <p><a href="#">Compralo on-line</a></p>
                         </li>
                     </ul>
                 </div>
         	</div>
         </div>
-        
-        
-        
         
         
     </section>

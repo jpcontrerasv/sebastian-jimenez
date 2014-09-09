@@ -1,5 +1,18 @@
 // JavaScript Document
 
+	var num = 1; //number of pixels before modifying styles
+	
+	$(window).bind('scroll', function () {
+		if ($(window).scrollTop() > num) {
+			$('#persistente').addClass('fijo');
+			$('body').addClass('menu-fijo');
+		} else {
+			$('#persistente').removeClass('fijo');
+			$('body').removeClass('menu-fijo');
+		}
+	});
+
+
 $(window).load(function(){
 	//Flexslider
 	$('#slider-noticias-recientes').flexslider({
@@ -15,6 +28,7 @@ $(window).load(function(){
 		language: "es",
 		today: true,
 	});
+	
   
   
 	//masonry
@@ -27,26 +41,26 @@ $(window).load(function(){
 	
 	
 	
-$( '#fecha-de-nacimiento' ).pickadate({
-    selectYears: 200,
-    selectMonths: true
-})
-
-
-$('#tienesmascota_0').click(function() {
-	if($(this).is(':checked')) {
-		$("#si-mascota").show().removeClass('ocultar');
-	}
-});
-$('#tienesmascota_1').click(function() {
-	if($(this).is(':checked')) {
-		$("#si-mascota").hide().addClass('ocultar');
-	}
-});
-
-$('.login-adv').click(function() {
-	$(this).fadeOut(500); 
-});
+	$( '#fecha-de-nacimiento' ).pickadate({
+		selectYears: 200,
+		selectMonths: true
+	})
+	
+	
+	$('#tienesmascota_0').click(function() {
+		if($(this).is(':checked')) {
+			$("#si-mascota").show().removeClass('ocultar');
+		}
+	});
+	$('#tienesmascota_1').click(function() {
+		if($(this).is(':checked')) {
+			$("#si-mascota").hide().addClass('ocultar');
+		}
+	});
+	
+	$('.login-adv').click(function() {
+		$(this).fadeOut(500); 
+	});
 
 	
 	/*$(".rand-color").each(function() {

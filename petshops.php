@@ -138,7 +138,7 @@
                     <a href="#" class="btn btn-success">Regístrate con nosotros &nbsp;<span class="glyphicon glyphicon-hand-right"></span></a>
     			</div>
     			<div class="clearfix"></div>
-    			<div class="caja-sidebar-home box fwidth no-column mascota-perdida">
+    			<div class="caja-sidebar-home box fwidth no-column hidden-xs">
     				<div class="box fwidth text-left titular-seccion">
     					<h6>Facebook</h6>
     				</div>
@@ -146,7 +146,7 @@
     					<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="250" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
     				</div>
     			</div>
-                <div class="caja-sidebar-home box fwidth no-column mascota-perdida">
+                <div class="caja-sidebar-home box fwidth no-column hidden-xs">
                     <div class="box fwidth text-left titular-seccion">
                         <h6>Twitter</h6>
                     </div>
@@ -665,6 +665,24 @@
                 </div>
             </div>
             
+            
+        <div id="paginacion" class="box fwidth fleft text-center">
+            <ul class="pagination">
+                <li><a href="#">&laquo;</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&raquo;</a></li>
+            </ul>
+        </div>
+        
+        
+        
+        
+        
+        
     </section>    
     
     </div>

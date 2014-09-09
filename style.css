@@ -42,13 +42,32 @@ a {
 }
 /*Wannabi*/
 body {
-	padding-top:15px;
+	/*padding-top:15px;*/
 	background:#e6e7e1;
 }
-header {
+body.menu-fijo {
+	padding-top:105px;
+}
+.relativo {
+	position:relative;
+}
+#persistente {
+	overflow:visible!important;
+	margin-bottom:20px;
+	box-shadow:none;
 	background:#FFF;
+	transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-webkit-transition:all .5s ease;	
+}
+.fijo {
+	position:fixed;
+	top:0;
+	z-index:999;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176)!Important;
+}
+header {
 	padding:20px 0;
-	margin-bottom: 15px;
 }
 header nav ul {
 	margin-top:6px;
@@ -61,6 +80,11 @@ header nav ul li {
 	/*border-right:1px solid;*/
 	margin-right:10px;
 }
+header nav ul li ul li{
+	width:100%;
+	text-align:left;
+}
+
 header nav ul li.dropdown:first-child {
 	margin-left:40px;
 }
@@ -81,14 +105,21 @@ header nav ul li a:hover {
 header nav select {
 	display: none;
 }
+/* para dispositivo */
+@media only screen and (max-device-width: 480px) {
+	header {
+		padding:10px 0;
+	}
+}
 @media (max-width: 1199px) {
-header nav ul {
-	display: none;
-}
-header nav select {
-	display: block;
-	margin:20px auto;
-}
+	header nav ul {
+		display: none;
+	}
+	header nav select {
+		display: block;
+		margin:15px auto 20px 70px;
+		width: 70%
+	}
 }
 .dropdown-menu {
 	margin: 0!important;
@@ -144,6 +175,9 @@ header ol li a:hover {
 	color:#19a191;
 }
 /*Header secciones*/
+#header-secciones {
+	margin-bottom:15px;
+}
 #header-secciones img {
 	min-width:100%;
 	width:100%;
@@ -279,7 +313,9 @@ font-style: italic;
 	min-width: 100%;
 }
 /*Slide home*/
-
+#bloq-index {
+	margin-bottom:40px;
+}
 .titular-seccion {
 	border-bottom: 1px solid;
 	padding: 0;
@@ -289,9 +325,14 @@ font-style: italic;
 	text-transform: uppercase;
 }
 .contenedor-bloq-home {
-	min-height: 332px;
 	background: rgba(255,255,255,.3);
-	padding: 10px;
+	padding:5px;
+}
+.contenedor-bloq-home p {
+	line-height:1em;
+}
+.contenedor-bloq-home h5 {
+	line-height:.9em;
 }
 .mascota-perdida img {
 	max-width: 100%;
@@ -304,6 +345,22 @@ font-style: italic;
 .datos-mascota p {
 	font-size: 11px;
 	margin-bottom: 12px;
+}
+.permalink-img img{
+	max-width:100%;
+	min-width:100%;
+	height:auto;
+}
+#productos-home {
+	min-height:316px;
+}
+h5.productos-home {
+	width:100%;
+	height:auto;
+	background:#247eb1;
+	margin:0;
+	padding:5px;
+	color:#FFF;
 }
 .mascota-perdida a.vermas {
 	background:#fff;
@@ -335,13 +392,35 @@ font-style: italic;
 	background: #000;
 	color: #FFF;
 }
+.contenedor-bloq-home h5 a {
+}
+#pregunta-profesionales-home .contenedor-bloq-home{
+	background:#FFF;
+}
 #slider-produtos-home {
 	border: 0!important;
- margin: 0!;
+	margin: 0!;
+	min-height:291px;
+	background:#FFF;
 }
 #slider-produtos-home p {
-	margin: 5px 0;
+	margin: 3px;
 }
+#slider-produtos-home p span {
+	font-weight:700;
+	color:#1a8579;
+}
+
+#slider-produtos-home .slides li {
+	text-align:center;
+}
+#slider-produtos-home .slides li hr {
+	display:block;
+	width:50%;
+	border:1px solid #247eb1;
+	margin:6px auto;
+}
+
 #slider-noticias-recientes {
 	margin-bottom: 20px;
 	background: #fff;
@@ -753,6 +832,21 @@ span.requerido {
 
 
 /*Clinicas veterinarias*/
+#filtros-tipo {
+	margin-top:24px;
+}
+#map-canvas {
+	height: 400px;
+}
+@media only screen and (max-device-width: 480px) {
+#map-canvas {
+	height: 200px;
+}
+}
+#geoloc button{
+	margin:10px 0;
+}
+
 #filtros-tipo, #filtros-secundarios {
 	background:#FFF;
 	padding-top:20px;
@@ -760,11 +854,10 @@ span.requerido {
 }
 #filtros-tipo ul {
 	border-bottom: 1px solid #000;
-	padding-left:20px;
 }
 #filtros-tipo ul li {
 	display:inline-block;
-	padding:4px 25px;
+	padding:4px 5px;
 	border-right:1px solid;
 	float:none;
 }
@@ -818,21 +911,37 @@ span.requerido {
 	border:0;
 	border-radius:50%;
 }
-#filtrado .container {
+#filtrado, #geoloc {
 	padding-top:10px;
-	padding-bottom:10px;
+	padding-bottom:10px;	
 	background:#FFF;
+	margin-bottom:
 }
-#filtrado .container .contenedor-filtros {
+#filtrado  .btn{
+	margin:30px 0 10px 0;
+}
+#filtrado  .contenedor-filtros {
 	padding:10px 10px 5px 10px;
 }
-#filtrado .container .contenedor-filtros p {
+#filtrado .contenedor-filtros p {
 }
-#filtrado .container p span {
+#filtrado p span {
 	font-style:italic;
+	 word-wrap: break-word;
+    -moz-hyphens:auto; 
+    -webkit-hyphens:auto; 
+    -o-hyphens:auto; 
+    hyphens:auto; 
 }
-#lista-de-clinicas .item-clinica {
-	width:24.1%;
+
+#form-registra #formulario-pregunta {
+	margin-top:0;
+}
+#form-registra #formulario-pregunta a.btn{
+	margin-bottom:30px;
+}
+#lista-lugares .item-lugar {
+	width:31%;
 	height:283px;
 	background:#FFF;
 	display:block;
@@ -843,19 +952,17 @@ span.requerido {
 	font-size:13px;
 	line-height:13px;
 }
-#lista-de-clinicas .item-clinica:nth-child(4n) {
-	margin-right:0px;
-}
-#lista-de-clinicas .item-clinica img {
+#lista-lugares .item-lugar img {
 	max-width:100%;
 	margin-bottom:10px;
 }
-#lista-de-clinicas .item-clinica h4 {
+#lista-lugares .item-lugar h4 {
 	padding:5px 0 5px 0;
 	border-top:1px solid;
 	font-weight:600;
 	letter-spacing:-1px;
 	text-transform:uppercase;
+	word-wrap: break-word;
 }
 .dire {
 	border-bottom:1px solid;
@@ -863,7 +970,7 @@ span.requerido {
 	clear:both;
 	margin:10px auto 10px 6%;
 }
-#lista-de-clinicas .item-clinica a.vermas {
+#lista-lugares .item-lugar a.vermas {
 	background:#fff;
 	border: 1px solid #000;
 	border-radius: 12px;
@@ -876,44 +983,45 @@ span.requerido {
 	transition:all .5s ease;
 	text-decoration:none;
 }
-#lista-de-clinicas .item-clinica a.vermas:hover {
+#lista-lugares .item-lugar a.vermas:hover {
 	background:#000;
 	color:#FFF;
 }
-#lista-de-clinicas .item-clinica i {
+#lista-lugares .item-lugar i {
 	color:#e84084;
 }
 
 
 /* para browser */
 @media (max-width: 1199px) {
-#lista-de-clinicas .item-clinica {
+#lista-lugares .item-lugar {
 	width:24.1%;
 	margin-right:11px;
 }
 }
 /* para browser */
 @media (max-width: 990px) {
-#lista-de-clinicas .item-clinica {
+#lista-lugares .item-lugar {
 	width:49.2%;
 	margin-right:11px;
 }
-#lista-de-clinicas .item-clinica:nth-child(2n) {
+#lista-lugares .item-lugar:nth-child(2n) {
 	margin-right:0px;
 }
 }
 @media (max-width: 480px) {
-#lista-de-clinicas .item-clinica {
+#lista-lugares .item-lugar {
 	width:48%;
 	margin-right:11px;
 }
-#lista-de-clinicas .item-clinica:nth-child(2n) {
+#lista-lugares .item-lugar:nth-child(2n) {
 	margin-right:0px;
 }
-#lista-de-clinicas .item-clinica h4 {
+#lista-lugares .item-lugar h4 {
 	margin-bottom:0px;
+	word-wrap: break-word;
 }
-#lista-de-clinicas .item-clinica .dire {
+#lista-lugares .item-lugar .dire {
 	margin:5px auto 3px 8%;
 	width:83%;
 }
@@ -926,17 +1034,18 @@ span.requerido {
 
 /* para dispositivo */
 @media only screen and (max-device-width: 480px) {
-#lista-de-clinicas .item-clinica {
+#lista-lugares .item-lugar {
 	font-size:10px;
 	line-height:10px;
 }
-#lista-de-clinicas .item-clinica h4 {
+#lista-lugares .item-lugar h4 {
 	border-top:none;
+	word-wrap: break-word;
 }
-#lista-de-clinicas .item-clinica .dire {
+#lista-lugares .item-lugar .dire {
 	border:0;
 }
-#lista-de-clinicas .item-clinica a.vermas {
+#lista-lugares .item-lugar a.vermas {
 	margin-top:9px;
 }
 #productos a.vermas {
@@ -1486,6 +1595,22 @@ a.list-group-item {
 	font-size:10pt !important;
 	color:#bbb
 }
+
+#paginacion {
+	margin:40px 0 80px 0;
+}
+#paginacion ul {
+	overflow: hidden;
+	text-align:center;
+}
+#paginacion ul li{
+	display:inline-block;
+	*display:inline; /*IE7*/
+	*zoom:1; /*IE7*/
+	overflow:hidden;
+}
+	
+
 /*Footer*/
 footer {
 	display:block;

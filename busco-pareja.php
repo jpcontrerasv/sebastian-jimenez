@@ -159,7 +159,7 @@
     		</section>
     	</div>
     	
-    	<div id="sidebar-pregunta-sj" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    	<div id="sidebar-comunidad" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
     		<div class="container-fluid">
     			<div id="formulario-pregunta" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="login-adv text-center">
