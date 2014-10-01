@@ -162,256 +162,11 @@
     
 	<section id="lista-lugares" class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
             <div class="box fwidth text-left titular-seccion">
-                <h6>Resultados de Búsqueda</h6>
-            </div>
-        	<div class="item-lugar text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid no-column">
-                	<div class="col-lg-12 text-center no-column">
-                    	<h4>la clínica del veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
+            	<div class="col-lg-2 no-column">
+                <h6><strong>Resultados para</strong></h6>
                 </div>
-            </div>
-        	<div class="item-lugar text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid no-column">
-                	<div class="col-lg-12 text-center no-column">
-                    	<h4>veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
-                </div>
-            </div>
-        	<div class="item-lugar text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid no-column">
-                	<div class="col-lg-12 text-center no-column">
-                    	<h4>veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
-                </div>
-            </div>
-        	<div class="item-lugar text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid no-column">
-                	<div class="col-lg-12 text-center no-column">
-                    	<h4>veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
-                </div>
-            </div>
-        	<div class="item-lugar text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid no-column">
-                	<div class="col-lg-12 text-center no-column">
-                    	<h4>veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
-                </div>
-            </div>
-        	<div class="item-lugar text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid no-column">
-                	<div class="col-lg-12 text-center no-column">
-                    	<h4>veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
-                </div>
-            </div>
-        	<div class="item-lugar text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid no-column">
-                	<div class="col-lg-12 text-center no-column">
-                    	<h4>veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
-                </div>
-            </div>
-        	<div class="item-lugar text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid no-column">
-                	<div class="col-lg-12 text-center no-column">
-                    	<h4>veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
-                </div>
-            </div>
-        	<div class="item-lugar text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid no-column">
-                	<div class="col-lg-12 text-center no-column">
-                    	<h4>veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
-                </div>
-            </div>
-        	<div class="item-lugar text-center">
-            	<img src="img/logo-clinica-1.png" alt=""><br>
-                <div class="container-fluid no-column">
-                	<div class="col-lg-12 text-center no-column">
-                    	<h4>veteromovil</h4>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-map-marker fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Avenida Providencia #1959, Santiago<br>
-                    </div>
-                    <div class="dire box fwidth fleft"></div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
-                    </div>
-                    <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
+                <div class="col-lg-10">
+                <p>perros, gatos, dermatología, providencia</p>
                 </div>
             </div>
         	<div class="item-lugar text-center">
@@ -430,10 +185,10 @@
                     <div class="dire box fwidth fleft"></div>
                     <div class="clearfix"></div>
                     <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
+                    	<i class="fa fa-phone fa-lg"></i>
                     </div>
                     <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
+                    	<a href="tel:+56229651061">+56 2 9978 8997</a> 
                     </div>
                     <div class="clearfix"></div>
                     <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
@@ -455,10 +210,10 @@
                     <div class="dire box fwidth fleft"></div>
                     <div class="clearfix"></div>
                     <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
+                    	<i class="fa fa-phone fa-lg"></i>
                     </div>
                     <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
+                    	<a href="tel:+56229651061">+56 2 9978 8997</a>  
                     </div>
                     <div class="clearfix"></div>
                     <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
@@ -480,10 +235,10 @@
                     <div class="dire box fwidth fleft"></div>
                     <div class="clearfix"></div>
                     <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
+                    	<i class="fa fa-phone fa-lg"></i>
                     </div>
                     <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
+                    	<a href="tel:+56229651061">+56 2 9978 8997</a>  
                     </div>
                     <div class="clearfix"></div>
                     <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
@@ -505,10 +260,10 @@
                     <div class="dire box fwidth fleft"></div>
                     <div class="clearfix"></div>
                     <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
+                    	<i class="fa fa-phone fa-lg"></i>
                     </div>
                     <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
+                    	<a href="tel:+56229651061">+56 2 9978 8997</a>  
                     </div>
                     <div class="clearfix"></div>
                     <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
@@ -530,10 +285,10 @@
                     <div class="dire box fwidth fleft"></div>
                     <div class="clearfix"></div>
                     <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
+                    	<i class="fa fa-phone fa-lg"></i>
                     </div>
                     <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
+                    	<a href="tel:+56229651061">+56 2 9978 8997</a>  
                     </div>
                     <div class="clearfix"></div>
                     <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
@@ -555,10 +310,10 @@
                     <div class="dire box fwidth fleft"></div>
                     <div class="clearfix"></div>
                     <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
+                    	<i class="fa fa-phone fa-lg"></i>
                     </div>
                     <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
+                    	<a href="tel:+56229651061">+56 2 9978 8997</a>  
                     </div>
                     <div class="clearfix"></div>
                     <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
@@ -580,10 +335,10 @@
                     <div class="dire box fwidth fleft"></div>
                     <div class="clearfix"></div>
                     <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
+                    	<i class="fa fa-phone fa-lg"></i>
                     </div>
                     <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
+                    	<a href="tel:+56229651061">+56 2 9978 8997</a>  
                     </div>
                     <div class="clearfix"></div>
                     <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
@@ -605,10 +360,10 @@
                     <div class="dire box fwidth fleft"></div>
                     <div class="clearfix"></div>
                     <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
+                    	<i class="fa fa-phone fa-lg"></i>
                     </div>
                     <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
+                    	<a href="tel:+56229651061">+56 2 9978 8997</a>  
                     </div>
                     <div class="clearfix"></div>
                     <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
@@ -630,10 +385,10 @@
                     <div class="dire box fwidth fleft"></div>
                     <div class="clearfix"></div>
                     <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
+                    	<i class="fa fa-phone fa-lg"></i>
                     </div>
                     <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
+                    	<a href="tel:+56229651061">+56 2 9978 8997</a>  
                     </div>
                     <div class="clearfix"></div>
                     <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
@@ -655,10 +410,260 @@
                     <div class="dire box fwidth fleft"></div>
                     <div class="clearfix"></div>
                     <div class="col-sm-3 col-xs-1 text-center no-column">
-                    	<i class="fa fa-list fa-lg"></i>
+                    	<i class="fa fa-phone fa-lg"></i>
                     </div>
                     <div class="col-sm-9 col-xs-11 text-left">
-                    	Perros, Gatos y Aves. 
+                    	<a href="tel:+56229651061">+56 2 9978 8997</a>  
+                    </div>
+                    <div class="clearfix"></div>
+                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
+                </div>
+            </div>
+        	<div class="item-lugar text-center">
+            	<img src="img/logo-clinica-1.png" alt=""><br>
+                <div class="container-fluid no-column">
+                	<div class="col-lg-12 text-center no-column">
+                    	<h4>la clínica del veteromovil</h4>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-map-marker fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	Avenida Providencia #1959, Santiago<br>
+                    </div>
+                    <div class="dire box fwidth fleft"></div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-phone fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	<a href="tel:+56229651061">+56 2 9978 8997</a>  
+                    </div>
+                    <div class="clearfix"></div>
+                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
+                </div>
+            </div>
+        	<div class="item-lugar text-center">
+            	<img src="img/logo-clinica-1.png" alt=""><br>
+                <div class="container-fluid no-column">
+                	<div class="col-lg-12 text-center no-column">
+                    	<h4>veteromovil</h4>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-map-marker fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	Avenida Providencia #1959, Santiago<br>
+                    </div>
+                    <div class="dire box fwidth fleft"></div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-phone fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	<a href="tel:+56229651061">+56 2 9978 8997</a>  
+                    </div>
+                    <div class="clearfix"></div>
+                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
+                </div>
+            </div>
+        	<div class="item-lugar text-center">
+            	<img src="img/logo-clinica-1.png" alt=""><br>
+                <div class="container-fluid no-column">
+                	<div class="col-lg-12 text-center no-column">
+                    	<h4>veteromovil</h4>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-map-marker fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	Avenida Providencia #1959, Santiago<br>
+                    </div>
+                    <div class="dire box fwidth fleft"></div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-phone fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	<a href="tel:+56229651061">+56 2 9978 8997</a>  
+                    </div>
+                    <div class="clearfix"></div>
+                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
+                </div>
+            </div>
+        	<div class="item-lugar text-center">
+            	<img src="img/logo-clinica-1.png" alt=""><br>
+                <div class="container-fluid no-column">
+                	<div class="col-lg-12 text-center no-column">
+                    	<h4>veteromovil</h4>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-map-marker fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	Avenida Providencia #1959, Santiago<br>
+                    </div>
+                    <div class="dire box fwidth fleft"></div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-phone fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	<a href="tel:+56229651061">+56 2 9978 8997</a>  
+                    </div>
+                    <div class="clearfix"></div>
+                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
+                </div>
+            </div>
+        	<div class="item-lugar text-center">
+            	<img src="img/logo-clinica-1.png" alt=""><br>
+                <div class="container-fluid no-column">
+                	<div class="col-lg-12 text-center no-column">
+                    	<h4>veteromovil</h4>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-map-marker fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	Avenida Providencia #1959, Santiago<br>
+                    </div>
+                    <div class="dire box fwidth fleft"></div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-phone fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	<a href="tel:+56229651061">+56 2 9978 8997</a>  
+                    </div>
+                    <div class="clearfix"></div>
+                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
+                </div>
+            </div>
+        	<div class="item-lugar text-center">
+            	<img src="img/logo-clinica-1.png" alt=""><br>
+                <div class="container-fluid no-column">
+                	<div class="col-lg-12 text-center no-column">
+                    	<h4>veteromovil</h4>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-map-marker fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	Avenida Providencia #1959, Santiago<br>
+                    </div>
+                    <div class="dire box fwidth fleft"></div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-phone fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	<a href="tel:+56229651061">+56 2 9978 8997</a>  
+                    </div>
+                    <div class="clearfix"></div>
+                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
+                </div>
+            </div>
+        	<div class="item-lugar text-center">
+            	<img src="img/logo-clinica-1.png" alt=""><br>
+                <div class="container-fluid no-column">
+                	<div class="col-lg-12 text-center no-column">
+                    	<h4>veteromovil</h4>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-map-marker fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	Avenida Providencia #1959, Santiago<br>
+                    </div>
+                    <div class="dire box fwidth fleft"></div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-phone fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	<a href="tel:+56229651061">+56 2 9978 8997</a>  
+                    </div>
+                    <div class="clearfix"></div>
+                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
+                </div>
+            </div>
+        	<div class="item-lugar text-center">
+            	<img src="img/logo-clinica-1.png" alt=""><br>
+                <div class="container-fluid no-column">
+                	<div class="col-lg-12 text-center no-column">
+                    	<h4>veteromovil</h4>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-map-marker fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	Avenida Providencia #1959, Santiago<br>
+                    </div>
+                    <div class="dire box fwidth fleft"></div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-phone fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	<a href="tel:+56229651061">+56 2 9978 8997</a>  
+                    </div>
+                    <div class="clearfix"></div>
+                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
+                </div>
+            </div>
+        	<div class="item-lugar text-center">
+            	<img src="img/logo-clinica-1.png" alt=""><br>
+                <div class="container-fluid no-column">
+                	<div class="col-lg-12 text-center no-column">
+                    	<h4>veteromovil</h4>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-map-marker fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	Avenida Providencia #1959, Santiago<br>
+                    </div>
+                    <div class="dire box fwidth fleft"></div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-phone fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	<a href="tel:+56229651061">+56 2 9978 8997</a>  
+                    </div>
+                    <div class="clearfix"></div>
+                    <a href="single-veterinarias.php" class="vermas">Ver más</a>                     
+                </div>
+            </div>
+        	<div class="item-lugar text-center">
+            	<img src="img/logo-clinica-1.png" alt=""><br>
+                <div class="container-fluid no-column">
+                	<div class="col-lg-12 text-center no-column">
+                    	<h4>veteromovil</h4>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-map-marker fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	Avenida Providencia #1959, Santiago<br>
+                    </div>
+                    <div class="dire box fwidth fleft"></div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 col-xs-1 text-center no-column">
+                    	<i class="fa fa-phone fa-lg"></i>
+                    </div>
+                    <div class="col-sm-9 col-xs-11 text-left">
+                    	<a href="tel:+56229651061">+56 2 9978 8997</a>  
                     </div>
                     <div class="clearfix"></div>
                     <a href="single-veterinarias.php" class="vermas">Ver más</a>                     

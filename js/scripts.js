@@ -1,5 +1,7 @@
 // JavaScript Document
 
+
+
 	var num = 1; //number of pixels before modifying styles
 	
 	$(window).bind('scroll', function () {
@@ -11,7 +13,19 @@
 			$('body').removeClass('menu-fijo');
 		}
 	});
+	
+	
+$("#insert-foto").click(function () {
+	$("#fotos-denuncia").each(function () {
+		 var tds = '<input type="file" class="foto-extra">';
+		 $(this).append(tds);
+	});
+});
+$( "#remove-foto" ).click(function() {
+  $("#fotos-denuncia input.foto-extra:last-child").remove();
+});
 
+$('#descripcion-denuncia').autosize(); 
 
 $(window).load(function(){
 	//Flexslider
@@ -45,7 +59,7 @@ $(window).load(function(){
 		selectYears: 200,
 		selectMonths: true
 	})
-	
+
 	
 	$('#tienesmascota_0').click(function() {
 		if($(this).is(':checked')) {
@@ -58,10 +72,20 @@ $(window).load(function(){
 		}
 	});
 	
+	$( "button.aceptodenuncia" ).click(function() {
+		$( "#advertencia-denuncia" ).fadeOut( "slow" );
+	});
+	
 	$('.login-adv').click(function() {
 		$(this).fadeOut(500); 
 	});
+	$('#rutdenuncia').Rut({
+		on_error: function(){ alert('Rut incorrecto'); },
+		format_on: 'keyup'
+	});
+	
 
+	
 	
 	/*$(".rand-color").each(function() {
 		var colors = ["#55c3e3","#58dcce","#e46161","#72bef4","#5792c9","#ffbf74"];

@@ -80,8 +80,8 @@
                     <li class="dropdown">
                       <a href="#" data-toggle="dropdown" class="dropdown-toggle">Tienda <b class="caret"></b></a>
                       <ul class="dropdown-menu">
-                        <li><a href="preguntale-a-sj.php">Mascota Protegida</a></li>
-                        <li><a href="seguro-animal.php">Tienda en línea</a></li>
+                        <li><a href="mascota-protegida.php">Mascota Protegida</a></li>
+                        <li><a href="productos.php">Tienda en línea</a></li>
                       </ul>
                     </li>
                     

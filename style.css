@@ -323,7 +323,12 @@ font-style: italic;
 }
 .titular-seccion h6 {
 	text-transform: uppercase;
+	display:inline-block;
 }
+.titular-seccion p{
+	line-height:30px;
+}
+
 .contenedor-bloq-home {
 	background: rgba(255,255,255,.3);
 	padding:5px;
@@ -1020,6 +1025,7 @@ span.requerido {
 #lista-lugares .item-lugar h4 {
 	margin-bottom:0px;
 	word-wrap: break-word;
+	font-size:90%;
 }
 #lista-lugares .item-lugar .dire {
 	margin:5px auto 3px 8%;
@@ -1054,6 +1060,11 @@ span.requerido {
 	width: 100%;
 }
 }
+#lista-lugares #filtro-tema {
+	margin-top:11px;
+}
+
+
 /*Single veterinaria*/
 .single-veterinaria {
 	background:#FFF;
@@ -1460,6 +1471,53 @@ a.list-group-item {
 	border-bottom:1px solid;
 	margin:20px 0;
 }
+
+
+/*Denuncia*/
+#advertencia-denuncia {
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index:9;
+	background:rgba(255,255,255,.9);
+	width:96%;
+	padding:20px;
+	color:#000;
+}
+#advertencia-denuncia button{
+	display:block;
+	margin:20px auto;
+}
+#advertencia-denuncia ul {
+	overflow: hidden;
+	text-align:center; 
+}
+#advertencia-denuncia ul li{
+	display:inline-block;
+	*display:inline; /*IE7*/
+	*zoom:1; /*IE7*/
+	overflow:hidden;
+}
+#advertencia-denuncia ul li img {
+	width:100px;
+}
+#advertencia-denuncia ul li span{
+	display:block;
+	width:100%;
+	float:left;
+	text-align:center;
+	padding:10px 0;
+}
+
+#denuncia form{
+	height:600px;
+	margin-top:50px;
+}
+#denuncia form textarea{
+	min-height:150px;
+	transition:all .5s ease;
+}
+
 
 /*Nube de tags*/
 #tags-preguntas {
