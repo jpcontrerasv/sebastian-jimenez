@@ -42,11 +42,15 @@
   }(document, 'script', 'facebook-jssdk'));</script>
   
   	<div id="persistente" class="box fwidth">
-        <header class="container">
+        <header class="container-fluid">
             <div class="col-lg-1 col-md-1 col-sm-6 col-xs-3 text-center no-column">
                 <a href="index.php"><img src="img/logo-menu-header.png" alt=""></a>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-9 no-column">
+            
+            
+            
+            
                 <nav>
                     <ul>
                     <li class="dropdown"><a href="blog.php">Blog</a></li>
@@ -97,6 +101,9 @@
                     <li class="dropdown"><a href="registro.php">Regístrate</a></li>
                     </ul>
                 </nav>
+                
+                
+                
             </div>
             <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 hidden-xs buscador-menu text-center no-column">
                 <form>

@@ -78,7 +78,7 @@ header nav ul li {
 	/*width:19%;*/
 	text-align:center;
 	/*border-right:1px solid;*/
-	margin-right:10px;
+	margin-right:30px;
 }
 header nav ul li ul li{
 	width:100%;
@@ -92,7 +92,7 @@ header nav ul li a {
 	padding:6px 0px;
 	display:block;
 	width:100%;
-	font-size:12px;
+	font-size:1em;
 	text-transform:uppercase;
 	color:#515151;
 }
@@ -463,9 +463,8 @@ h5.productos-home {
 	color:#FFF;
 }
 .txt-slide .tabla .table-cell h1 {
-	font-family:"source-code-pro";
+	font-family:"jaf-facitweb";
 	font-weight:600;
-	letter-spacing:-2px;
 	text-decoration:underline;
 }
 .txt-slide .tabla .table-cell h1 a {
@@ -565,7 +564,7 @@ h5.productos-home {
 	width:100%;
 }
 #notas .item h2 {
-	font-family:"source-code-pro";
+	font-family:"jaf-facitweb";
 	font-weight:600;
 	letter-spacing:-2px;
 }
@@ -574,7 +573,7 @@ h5.productos-home {
 }
 #notas .fecha {
 	border-bottom:1px solid;
-	padding-top:29px;
+	padding-top:29px;s
 }
 #notas .fecha p {
 	font-weight:700;
